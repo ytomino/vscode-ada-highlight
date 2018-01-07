@@ -3,6 +3,9 @@
 	"name": "Ada",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -10,6 +13,12 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.double-dash.ada",
+				"match": "--.*$"
+			}]
+		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ada",
