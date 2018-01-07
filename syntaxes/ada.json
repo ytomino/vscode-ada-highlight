@@ -20,12 +20,10 @@
 			"name": "string.quoted.double.ada",
 			"begin": "\"",
 			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.ada",
-					"match": "\\\\."
-				}
-			]
+			"patterns": [{
+				"name": "constant.character.escape.ada",
+				"match": "\\\\."
+			}]
 		}
 	},
 	"scopeName": "source.ada"
