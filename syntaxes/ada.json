@@ -9,6 +9,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#labels"
+		},
+		{
 			"include": "#characters"
 		},
 		{
@@ -30,6 +33,13 @@
 				"name": "keyword.control.ada",
 				"match": "\\b(if|while|for|return)\\b"
 			}]
+		},
+		"labels": {
+			"name": "keyword.operator.ada",
+			"contentName": "entity.name.selector.ada",
+			"begin": "<<",
+			"end": ">>",
+			"patterns": []
 		},
 		"characters": {
 			"patterns": [{
