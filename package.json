@@ -1,0 +1,26 @@
+{
+    "name": "ada-highlight",
+    "displayName": "Ada Highlight",
+    "description": "Ada syntax highlight",
+    "version": "0.0.1",
+    "publisher": "ytomino",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ada",
+            "aliases": ["Ada", "ada"],
+            "extensions": [".adb",".ads",".ada"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ada",
+            "scopeName": "source.ada",
+            "path": "syntaxes/ada.json"
+        }]
+    }
+}
