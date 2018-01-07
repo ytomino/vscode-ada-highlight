@@ -9,7 +9,13 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#characters"
+		},
+		{
 			"include": "#strings"
+		},
+		{
+			"include": "#replacedStrings"
 		}
 	],
 	"repository": {
@@ -25,13 +31,28 @@
 				"match": "\\b(if|while|for|return)\\b"
 			}]
 		},
+		"characters": {
+			"patterns": [{
+				"name": "string.quoted.single.ada",
+				"match": "\\'.\\'"
+			}]
+		},
 		"strings": {
 			"name": "string.quoted.double.ada",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [{
 				"name": "constant.character.escape.ada",
-				"match": "\\\\."
+				"match": "\"\""
+			}]
+		},
+		"replacedStrings": {
+			"name": "string.quoted.other.ada",
+			"begin": "%",
+			"end": "%",
+			"patterns": [{
+				"name": "constant.character.escape.ada",
+				"match": "%%"
 			}]
 		}
 	},
