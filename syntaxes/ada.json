@@ -21,16 +21,7 @@
 			"include": "#symbols"
 		},
 		{
-			"include": "#numerics"
-		},
-		{
-			"include": "#characters"
-		},
-		{
-			"include": "#strings"
-		},
-		{
-			"include": "#replacedStrings"
+			"include": "#literals"
 		}
 	],
 	"repository": {
@@ -84,35 +75,35 @@
 				"match": "&|\\(|\\)|\\*\\*?|\\+|-|\\.\\.?|/=?|:=?|;|<[=>]?|=>?|>=?|@|\\|"
 			}]
 		},
-		"numerics": {
-			"patterns": [{
-				"name": "constant.numeric.ada",
-				"match": "\\b\\d[[:digit:]_]*((\\.[[:digit:]_]+|#[[:xdigit:]_]+(\\.[[:xdigit:]_]+)?#)([eE][+\\-]?[[:digit:]_]+)?)?"
-			}]
-		},
-		"characters": {
-			"patterns": [{
-				"name": "string.quoted.single.ada",
-				"match": "\\'.\\'"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.ada",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [{
-				"name": "constant.character.escape.ada",
-				"match": "\"\""
-			}]
-		},
-		"replacedStrings": {
-			"name": "string.quoted.other.ada",
-			"begin": "%",
-			"end": "%",
-			"patterns": [{
-				"name": "constant.character.escape.ada",
-				"match": "%%"
-			}]
+		"literals": {
+			"patterns": [
+				{
+					"name": "constant.numeric.ada",
+					"match": "\\b\\d[[:digit:]_]*((\\.[[:digit:]_]+|#[[:xdigit:]_]+(\\.[[:xdigit:]_]+)?#)([eE][+\\-]?[[:digit:]_]+)?)?"
+				},
+				{
+					"name": "string.quoted.single.ada",
+					"match": "\\'.\\'"
+				},
+				{
+					"name": "string.quoted.double.ada",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [{
+						"name": "constant.character.escape.ada",
+						"match": "\"\""
+					}]
+				},
+				{
+					"name": "string.quoted.other.ada",
+					"begin": "%",
+					"end": "%",
+					"patterns": [{
+						"name": "constant.character.escape.ada",
+						"match": "%%"
+					}]
+				}
+			]
 		}
 	},
 	"scopeName": "source.ada"
