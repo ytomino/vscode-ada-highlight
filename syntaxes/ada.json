@@ -9,6 +9,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#attributes"
+		},
+		{
 			"include": "#labels"
 		},
 		{
@@ -35,6 +38,17 @@
 			"patterns": [{
 				"name": "keyword.control.ada",
 				"match": "\\b(abort|else|new|return|abs|elsif|not|reverse|abstract|end|null|accept|entry|select|access|exception|of|separate|aliased|exit|or|some|all|others|subtype|and|for|out|synchronized|array|function|overriding|at|tagged|generic|package|task|begin|goto|pragma|terminate|body|private|then|if|procedure|type|case|in|protected|constant|interface|until|is|raise|use|declare|range|delay|limited|record|when|delta|loop|rem|while|digits|renames|with|do|mod|requeue|xor)\\b"
+			}]
+		},
+		"attributes": {
+			"patterns": [{
+				"name": "entity.other.attribute-name.ada",
+				"match": "(('(Access|Address|Adjacent|Aft|Alignment|Base|Bit_Order|Body_Version|Callable|Caller|Ceiling|Class|Component_Size|Compose|Constrained|Copy_Sign|Count|Definite|Delta|Denorm|Digits|Exponent|External_Tag|First|First_Bit|First_Valid|Floor|Fore|Fraction|Has_Same_Storage|Identity|Image|Index|Input|Last|Last_Bit|Last_Valid|Leading_Part|Length|Machine|Machine_Emax|Machine_Emin|Machine_Mantissa|Machine_Overflows|Machine_Radix|Machine_Rounding|Machine_Rounds|Max|Max_Alignment_For_Allocation|Max_Size_In_Storage_Elements|Min|Mod|Model|Model_Emin|Model_Epsilon|Model_Mantissa|Model_Small|Modulus|Nonblocking|Object_Size|Old|Output|Overlaps_Storage|Partition_Id|Pos|Position|Pred|Priority|Range|Read|Remainder|Result|Round|Rounding|Safe_First|Safe_Last|Scale|Scaling|Signed_Zeros|Size|Small|Storage_Pool|Storage_Size|Stream_Size|Succ|Tag|Terminated|Truncation|Unbiased_Rounding|Unchecked_Access|Val|Valid|Value|Version|Wide_Image|Wide_Value|Wide_Wide_Image|Wide_Wide_Value|Wide_Wide_Width|Wide_Width|Width|Write))|'[A-Za-z][A-Za-z_0-9]+)\\b",
+				"captures": {
+					"2": {
+						"name": "entity.other.attribute-name.defined.ada"
+					}
+				}
 			}]
 		},
 		"labels": {
