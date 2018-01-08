@@ -9,16 +9,25 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#withClauses"
+		},
+		{
 			"include": "#pragmas"
 		},
 		{
 			"include": "#attributes"
 		},
 		{
+			"include": "#aspects"
+		},
+		{
 			"include": "#labels"
 		},
 		{
 			"include": "#symbols"
+		},
+		{
+			"include": "#parenthesis"
 		},
 		{
 			"include": "#literals"
@@ -34,7 +43,13 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ada",
-				"match": "\\b(abort|else|new|return|abs|elsif|not|reverse|abstract|end|null|accept|entry|select|access|exception|of|separate|aliased|exit|or|some|all|others|subtype|and|for|out|synchronized|array|function|overriding|at|tagged|generic|package|task|begin|goto|terminate|body|private|then|if|procedure|type|case|in|protected|constant|interface|until|is|raise|use|declare|range|delay|limited|record|when|delta|loop|rem|while|digits|renames|with|do|mod|requeue|xor)\\b"
+				"match": "\\b(abort|else|new|return|abs|elsif|not|reverse|abstract|end|null|accept|entry|select|access|exception|of|separate|aliased|exit|or|some|all|others|subtype|and|for|out|synchronized|array|function|overriding|at|tagged|generic|package|task|begin|goto|terminate|body|private|then|if|procedure|type|case|in|protected|constant|interface|until|is|raise|use|declare|range|delay|limited|record|when|delta|loop|rem|while|digits|renames|do|mod|requeue|xor)\\b"
+			}]
+		},
+		"withClauses": {
+			"patterns": [{
+				"name": "keyword.control.ada",
+				"match": "^with\\b"
 			}]
 		},
 		"pragmas": {
@@ -62,6 +77,58 @@
 				}
 			}]
 		},
+		"aspects": {
+			"begin": "(?!^)\\b(with)\\b",
+			"beginCaptures": {
+				"1": {
+					"name": "meta.ada"
+				}
+			},
+			"end": "(?=;)",
+			"patterns": [
+				{
+					"include": "#comments"
+				},
+				{
+					"name": "entity.other.attribute-name.ada",
+					"match": "\\b((Address|Alignment|All_Calls_Remote|Asynchronous|Atomic|Atomic_Components|Attach_Handler|Bit_Order|Coding|Component_Size|Constant_Indexing|Convention|CPU|Default_Component_Value|Default_Iterator|Default_Storage_Pool|Default_Value|Discard_Names|Dispatching_Domain|Dynamic_Predicate|Elaborate_Body|Exclusive_Functions|Export|External_Name|External_Tag|Implicit_Dereference|Import|Independent|Independent_Components|Inline|Input('Class)?|Interrupt_Handler|Interrupt_Priority|Iterator_Element|Link_Name|Machine_Radix|Max_Entry_Queue_Length|No_Return|Nonblocking|Output('Class)?|Pack|Post('Class)?|Pre('Class)?|Predicate_Failure|Preelaborate|Priority|Pure|Read('Class)?|Relative_Deadline|Remote_Call_Interface|Remote_Types|Shared_Passive|Size|Small|Stable_Properties('Class)?|Static_Predicate|Storage_Pool|Storage_Size|Stream_Size|Synchronization|Type_Invariant('Class)?|Unchecked_Union|Variable_Indexing|Volatile|Volatile_Components|Write('Class)?)|[A-Za-z][A-Za-z_0-9]*)\\b",
+					"captures": {
+						"2": {
+							"name": "entity.other.attribute-name.defined.ada"
+						}
+					}
+				},
+				{
+					"begin": "=>",
+					"beginCaptures": {
+						"0": {
+							"name": "keyword.operator.ada"
+						}
+					},
+					"end": "(?=[,;])",
+					"patterns": [
+						{
+							"include": "#comments"
+						},
+						{
+							"include": "#keywords"
+						},
+						{
+							"include": "#attributes"
+						},
+						{
+							"include": "#symbols"
+						},
+						{
+							"include": "#nestedParenthesis"
+						},
+						{
+							"include": "#literals"
+						}
+					]
+				}
+			]
+		},
 		"labels": {
 			"name": "keyword.operator.ada",
 			"contentName": "entity.name.selector.ada",
@@ -72,8 +139,52 @@
 		"symbols": {
 			"patterns": [{
 				"name": "keyword.operator.ada",
-				"match": "&|\\(|\\)|\\*\\*?|\\+|-|\\.\\.?|/=?|:=?|;|<[=>]?|=>?|>=?|@|\\|"
+				"match": "&|\\*\\*?|\\+|-|\\.\\.?|/=?|:=?|;|<[=>]?|=>?|>=?|@|\\|"
 			}]
+		},
+		"parenthesis": {
+			"patterns": [{
+				"name": "keyword.operator.ada",
+				"match": "[()]"
+			}]
+		},
+		"nestedParenthesis": {
+			"begin": "\\(",
+			"beginCaptures": {
+				"0": {
+					"name": "keyword.operator.ada"
+				}
+			},
+			"end": "\\)",
+			"endCaptures": {
+				"0": {
+					"name": "keyword.operator.ada"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#comments"
+				},
+				{
+					"include": "#keywords"
+				},
+				{
+					"name": "keyword.control.ada",
+					"match": "\\bwith\\b"
+				},
+				{
+					"include": "#attributes"
+				},
+				{
+					"include": "#symbols"
+				},
+				{
+					"include": "#nestedParenthesis"
+				},
+				{
+					"include": "#literals"
+				}
+			]
 		},
 		"literals": {
 			"patterns": [
