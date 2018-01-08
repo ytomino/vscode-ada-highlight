@@ -12,6 +12,9 @@
 			"include": "#labels"
 		},
 		{
+			"include": "#numerics"
+		},
+		{
 			"include": "#characters"
 		},
 		{
@@ -40,6 +43,12 @@
 			"begin": "<<",
 			"end": ">>",
 			"patterns": []
+		},
+		"numerics": {
+			"patterns": [{
+				"name": "constant.numeric.ada",
+				"match": "\\b\\d[[:digit:]_]*((\\.[[:digit:]_]+|#[[:xdigit:]_]+(\\.[[:xdigit:]_]+)?#)([eE][+\\-]?[[:digit:]_]+)?)?"
+			}]
 		},
 		"characters": {
 			"patterns": [{
