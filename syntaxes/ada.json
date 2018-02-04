@@ -12,6 +12,9 @@
 			"include": "#withClauses"
 		},
 		{
+			"include": "#raiseStatements"
+		},
+		{
 			"include": "#pragmas"
 		},
 		{
@@ -48,7 +51,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ada",
-				"match": "\\b(abort|else|new|return|abs|elsif|not|reverse|abstract|end|null|accept|entry|select|access|exception|of|separate|aliased|exit|or|some|all|others|subtype|and|for|out|synchronized|array|function|overriding|at|tagged|generic|package|task|begin|goto|terminate|body|private|then|if|procedure|type|case|in|protected|constant|interface|until|is|raise|use|declare|range|delay|limited|record|when|delta|loop|rem|while|digits|renames|do|mod|requeue|xor)\\b"
+				"match": "\\b(abort|else|new|return|abs|elsif|not|reverse|abstract|end|null|accept|entry|select|access|exception|of|separate|aliased|exit|or|some|all|others|subtype|and|for|out|synchronized|array|function|overriding|at|tagged|generic|package|task|begin|goto|terminate|body|private|then|if|procedure|type|case|in|protected|constant|interface|until|is|use|declare|range|delay|limited|record|when|delta|loop|rem|while|digits|renames|do|mod|requeue|xor)\\b"
 			}]
 		},
 		"withClauses": {
@@ -56,6 +59,48 @@
 				"name": "keyword.control.ada",
 				"match": "^with\\b"
 			}]
+		},
+		"raiseStatements": {
+			"begin": "\\braise\\b",
+			"beginCaptures": {
+				"0": {
+					"name": "keyword.control.ada"
+				}
+			},
+			"end": ";",
+			"endCaptures": {
+				"0": {
+					"name": "keyword.operator.ada"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#comments"
+				},
+				{
+					"include": "#keywords"
+				},
+				{
+					"name": "keyword.control.ada",
+					"match": "\\braise\\b"
+				},
+				{
+					"name": "keyword.control.ada",
+					"match": "\\bwith\\b"
+				},
+				{
+					"include": "#attributes"
+				},
+				{
+					"include": "#symbols"
+				},
+				{
+					"include": "#nestedParenthesis"
+				},
+				{
+					"include": "#literals"
+				}
+			]
 		},
 		"pragmas": {
 			"patterns": [{
@@ -119,6 +164,10 @@
 							"include": "#keywords"
 						},
 						{
+							"name": "keyword.control.ada",
+							"match": "\\braise\\b"
+						},
+						{
 							"include": "#attributes"
 						},
 						{
@@ -172,6 +221,10 @@
 				},
 				{
 					"include": "#keywords"
+				},
+				{
+					"name": "keyword.control.ada",
+					"match": "\\braise\\b"
 				},
 				{
 					"name": "keyword.control.ada",
