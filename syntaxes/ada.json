@@ -168,6 +168,10 @@
 							"match": "\\braise\\b"
 						},
 						{
+							"name": "keyword.control.ada",
+							"match": "\\bwith\\b"
+						},
+						{
 							"include": "#attributes"
 						},
 						{
