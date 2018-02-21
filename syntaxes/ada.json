@@ -16,6 +16,9 @@
 			"match": "\\b(limited|private)\\b"
 		},
 		{
+			"include": "#genericFormalPart"
+		},
+		{
 			"include": "#raiseStatements"
 		},
 		{
@@ -58,13 +61,13 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ada",
-				"match": "\\b(abort|else|new|return|abs|elsif|not|reverse|abstract|end|null|accept|entry|select|access|exception|of|separate|aliased|exit|or|some|all|others|subtype|and|for|out|synchronized|array|function|overriding|at|tagged|generic|package|task|begin|goto|terminate|body|then|if|procedure|type|case|in|protected|constant|interface|until|is|use|declare|range|delay|record|when|delta|loop|rem|while|digits|renames|do|mod|xor)\\b"
+				"match": "\\b(abort|else|new|return|abs|elsif|not|reverse|abstract|end|null|accept|entry|select|access|exception|of|separate|aliased|exit|or|some|all|others|subtype|and|for|out|synchronized|array|function|overriding|at|tagged|package|task|begin|goto|terminate|body|then|if|procedure|type|case|in|protected|constant|interface|until|is|use|declare|range|delay|record|when|delta|loop|rem|while|digits|renames|do|mod|xor)\\b"
 			}]
 		},
 		"keywords2": {
 			"patterns": [{
 				"name": "keyword.control.ada",
-				"match": "\\b(limited|pragma|private|raise|requeue|with)\\b"
+				"match": "\\b(generic|limited|pragma|private|raise|requeue|with)\\b"
 			}]
 		},
 		"withClauses": {
@@ -83,6 +86,81 @@
 			"patterns": [
 				{
 					"include": "#comments"
+				},
+				{
+					"include": "#keywords"
+				},
+				{
+					"include": "#keywords2"
+				},
+				{
+					"include": "#attributes"
+				},
+				{
+					"include": "#symbols"
+				},
+				{
+					"include": "#nestedParenthesis"
+				},
+				{
+					"include": "#literals"
+				}
+			]
+		},
+		"genericFormalPart": {
+			"begin": "\\bgeneric\\b",
+			"beginCaptures": {
+				"0": {
+					"name": "keyword.control.ada"
+				}
+			},
+			"end": "(?=\\b(function|package|procedure)\\b)",
+			"patterns": [
+				{
+					"include": "#comments"
+				},
+				{
+					"begin": "\\b(with|type)\\b|(:)(?!=)",
+					"beginCaptures": {
+						"1": {
+							"name": "keyword.control.ada"
+						},
+						"2": {
+							"name": "keyword.operator.ada"
+						}
+					},
+					"end": ";",
+					"endCaptures": {
+						"0": {
+							"name": "keyword.operator.ada"
+						}
+					},
+					"patterns": [
+						{
+							"include": "#comments"
+						},
+						{
+							"include": "#keywords"
+						},
+						{
+							"include": "#aspects"
+						},
+						{
+							"include": "#keywords2"
+						},
+						{
+							"include": "#attributes"
+						},
+						{
+							"include": "#symbols"
+						},
+						{
+							"include": "#nestedParenthesis"
+						},
+						{
+							"include": "#literals"
+						}
+					]
 				},
 				{
 					"include": "#keywords"
