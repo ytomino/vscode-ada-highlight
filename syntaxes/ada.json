@@ -30,13 +30,13 @@
 			"include": "#labels"
 		},
 		{
-			"include": "#symbols"
-		},
-		{
 			"include": "#parenthesis"
 		},
 		{
 			"include": "#literals"
+		},
+		{
+			"include": "#delimiter"
 		},
 		{
 			"include": "#reservedWord"
@@ -75,13 +75,13 @@
 					"include": "#attributes"
 				},
 				{
-					"include": "#symbols"
-				},
-				{
 					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#delimiter"
 				},
 				{
 					"include": "#reservedWord"
@@ -127,13 +127,13 @@
 							"include": "#attributes"
 						},
 						{
-							"include": "#symbols"
-						},
-						{
 							"include": "#parenthesis"
 						},
 						{
 							"include": "#literals"
+						},
+						{
+							"include": "#delimiter"
 						},
 						{
 							"include": "#reservedWord"
@@ -144,13 +144,13 @@
 					"include": "#attributes"
 				},
 				{
-					"include": "#symbols"
-				},
-				{
 					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#delimiter"
 				},
 				{
 					"include": "#reservedWord"
@@ -178,13 +178,13 @@
 					"include": "#attributes"
 				},
 				{
-					"include": "#symbols"
-				},
-				{
 					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#delimiter"
 				},
 				{
 					"include": "#reservedWord"
@@ -212,13 +212,13 @@
 					"include": "#attributes"
 				},
 				{
-					"include": "#symbols"
-				},
-				{
 					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#delimiter"
 				},
 				{
 					"include": "#reservedWord"
@@ -291,13 +291,13 @@
 							"include": "#attributes"
 						},
 						{
-							"include": "#symbols"
-						},
-						{
 							"include": "#parenthesis"
 						},
 						{
 							"include": "#literals"
+						},
+						{
+							"include": "#delimiter"
 						},
 						{
 							"include": "#reservedWord"
@@ -312,12 +312,6 @@
 			"begin": "<<",
 			"end": ">>",
 			"patterns": []
-		},
-		"symbols": {
-			"patterns": [{
-				"name": "keyword.operator.ada",
-				"match": "&|\\*\\*?|\\+|,|-|\\.\\.?|/=?|:=?|;|<[=>]?|=>?|>=?|@|\\|"
-			}]
 		},
 		"parenthesis": {
 			"begin": "\\(",
@@ -340,13 +334,13 @@
 					"include": "#attributes"
 				},
 				{
-					"include": "#symbols"
-				},
-				{
 					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#delimiter"
 				},
 				{
 					"include": "#reservedWord"
@@ -382,6 +376,12 @@
 					}]
 				}
 			]
+		},
+		"delimiter": {
+			"patterns": [{
+				"name": "keyword.operator.ada",
+				"match": "&|\\*\\*?|\\+|,|-|\\.\\.?|/=?|:=?|;|<[=>]?|=>?|>=?|@|\\|"
+			}]
 		},
 		"reservedWord": {
 			"patterns": [{
