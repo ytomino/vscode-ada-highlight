@@ -233,15 +233,20 @@
 				}
 			},
 			"end": "(?=[;(])",
-			"patterns": [{
-				"name": "entity.other.attribute-name.ada",
-				"match": "\\b((All_Calls_Remote|Assert|Assertion_Policy|Asynchronous|Atomic|Atomic_Components|Attach_Handler|Convention|CPU|Default_Storage_Pool|Detect_Blocking|Discard_Names|Dispatching_Domain|Elaborate|Elaborate_All|Elaborate_Body|Export|Import|Independent|Independent_Components|Inline|Inspection_Point|Interrupt_Handler|Interrupt_Priority|Linker_Options|List|Locking_Policy|No_Return|Normalize_Scalars|Optimize|Pack|Page|Partition_Elaboration_Policy|Preelaborable_Initialization|Preelaborate|Priority|Priority_Specific_Dispatching|Profile|Pure|Queuing_Policy|Relative_Deadline|Remote_Call_Interface|Remote_Types|Restrictions|Reviewable|Shared_Passive|Storage_Size|Suppress|Task_Dispatching_Policy|Unchecked_Union|Unsuppress|Volatile|Volatile_Components)|([A-Za-z_][A-Za-z_0-9]*))\\b",
-				"captures": {
-					"2": {
-						"name": "entity.other.attribute-name.defined.ada"
+			"patterns": [
+				{
+					"include": "#comments"
+				},
+				{
+					"name": "entity.other.attribute-name.ada",
+					"match": "\\b((All_Calls_Remote|Assert|Assertion_Policy|Asynchronous|Atomic|Atomic_Components|Attach_Handler|Convention|CPU|Default_Storage_Pool|Detect_Blocking|Discard_Names|Dispatching_Domain|Elaborate|Elaborate_All|Elaborate_Body|Export|Import|Independent|Independent_Components|Inline|Inspection_Point|Interrupt_Handler|Interrupt_Priority|Linker_Options|List|Locking_Policy|No_Return|Normalize_Scalars|Optimize|Pack|Page|Partition_Elaboration_Policy|Preelaborable_Initialization|Preelaborate|Priority|Priority_Specific_Dispatching|Profile|Pure|Queuing_Policy|Relative_Deadline|Remote_Call_Interface|Remote_Types|Restrictions|Reviewable|Shared_Passive|Storage_Size|Suppress|Task_Dispatching_Policy|Unchecked_Union|Unsuppress|Volatile|Volatile_Components)|([A-Za-z_][A-Za-z_0-9]*))\\b",
+					"captures": {
+						"2": {
+							"name": "entity.other.attribute-name.defined.ada"
+						}
 					}
 				}
-			}]
+			]
 		},
 		"attributes": {
 			"patterns": [{
