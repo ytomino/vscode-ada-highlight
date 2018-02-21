@@ -100,7 +100,7 @@
 					"include": "#symbols"
 				},
 				{
-					"include": "#nestedParenthesis"
+					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
@@ -155,7 +155,7 @@
 							"include": "#symbols"
 						},
 						{
-							"include": "#nestedParenthesis"
+							"include": "#parenthesis"
 						},
 						{
 							"include": "#literals"
@@ -175,7 +175,7 @@
 					"include": "#symbols"
 				},
 				{
-					"include": "#nestedParenthesis"
+					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
@@ -212,7 +212,7 @@
 					"include": "#symbols"
 				},
 				{
-					"include": "#nestedParenthesis"
+					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
@@ -249,7 +249,7 @@
 					"include": "#symbols"
 				},
 				{
-					"include": "#nestedParenthesis"
+					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
@@ -331,7 +331,7 @@
 							"include": "#symbols"
 						},
 						{
-							"include": "#nestedParenthesis"
+							"include": "#parenthesis"
 						},
 						{
 							"include": "#literals"
@@ -354,12 +354,6 @@
 			}]
 		},
 		"parenthesis": {
-			"patterns": [{
-				"name": "keyword.operator.ada",
-				"match": "[()]"
-			}]
-		},
-		"nestedParenthesis": {
 			"begin": "\\(",
 			"beginCaptures": {
 				"0": {
@@ -389,7 +383,7 @@
 					"include": "#symbols"
 				},
 				{
-					"include": "#nestedParenthesis"
+					"include": "#parenthesis"
 				},
 				{
 					"include": "#literals"
