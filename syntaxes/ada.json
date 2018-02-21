@@ -64,7 +64,7 @@
 		"keywords2": {
 			"patterns": [{
 				"name": "keyword.control.ada",
-				"match": "\\b(limited|private|raise|requeue|with)\\b"
+				"match": "\\b(limited|pragma|private|raise|requeue|with)\\b"
 			}]
 		},
 		"withClauses": {
