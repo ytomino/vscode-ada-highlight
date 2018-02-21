@@ -12,6 +12,10 @@
 			"include": "#withClauses"
 		},
 		{
+			"name": "keyword.control.ada",
+			"match": "\\b(limited|private)\\b"
+		},
+		{
 			"include": "#raiseStatements"
 		},
 		{
