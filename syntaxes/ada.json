@@ -6,14 +6,7 @@
 			"include": "#comments"
 		},
 		{
-			"include": "#keywords"
-		},
-		{
 			"include": "#withClauses"
-		},
-		{
-			"name": "keyword.control.ada",
-			"match": "\\b(limited|private)\\b"
 		},
 		{
 			"include": "#genericFormalPart"
@@ -44,6 +37,9 @@
 		},
 		{
 			"include": "#literals"
+		},
+		{
+			"include": "#reservedWord"
 		}
 	],
 	"repository": {
@@ -57,18 +53,6 @@
 			},
 			"end": "$",
 			"patterns": []
-		},
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.ada",
-				"match": "\\b(abort|else|new|return|abs|elsif|not|reverse|abstract|end|null|accept|entry|select|access|exception|of|separate|aliased|exit|or|some|all|others|subtype|and|for|out|synchronized|array|function|overriding|at|tagged|package|task|begin|goto|terminate|body|then|if|procedure|type|case|in|protected|constant|interface|until|is|use|declare|range|delay|record|when|delta|loop|rem|while|digits|renames|do|mod|xor)\\b"
-			}]
-		},
-		"keywords2": {
-			"patterns": [{
-				"name": "keyword.control.ada",
-				"match": "\\b(generic|limited|pragma|private|raise|requeue|with)\\b"
-			}]
 		},
 		"withClauses": {
 			"begin": "^(limited\\s+)?(private\\s+)?with\\b",
@@ -88,12 +72,6 @@
 					"include": "#comments"
 				},
 				{
-					"include": "#keywords"
-				},
-				{
-					"include": "#keywords2"
-				},
-				{
 					"include": "#attributes"
 				},
 				{
@@ -104,6 +82,9 @@
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#reservedWord"
 				}
 			]
 		},
@@ -140,13 +121,7 @@
 							"include": "#comments"
 						},
 						{
-							"include": "#keywords"
-						},
-						{
 							"include": "#aspects"
-						},
-						{
-							"include": "#keywords2"
 						},
 						{
 							"include": "#attributes"
@@ -159,14 +134,11 @@
 						},
 						{
 							"include": "#literals"
+						},
+						{
+							"include": "#reservedWord"
 						}
 					]
-				},
-				{
-					"include": "#keywords"
-				},
-				{
-					"include": "#keywords2"
 				},
 				{
 					"include": "#attributes"
@@ -179,6 +151,9 @@
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#reservedWord"
 				}
 			]
 		},
@@ -200,12 +175,6 @@
 					"include": "#comments"
 				},
 				{
-					"include": "#keywords"
-				},
-				{
-					"include": "#keywords2"
-				},
-				{
 					"include": "#attributes"
 				},
 				{
@@ -216,6 +185,9 @@
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#reservedWord"
 				}
 			]
 		},
@@ -237,12 +209,6 @@
 					"include": "#comments"
 				},
 				{
-					"include": "#keywords"
-				},
-				{
-					"include": "#keywords2"
-				},
-				{
 					"include": "#attributes"
 				},
 				{
@@ -253,6 +219,9 @@
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#reservedWord"
 				}
 			]
 		},
@@ -319,12 +288,6 @@
 							"include": "#comments"
 						},
 						{
-							"include": "#keywords"
-						},
-						{
-							"include": "#keywords2"
-						},
-						{
 							"include": "#attributes"
 						},
 						{
@@ -335,6 +298,9 @@
 						},
 						{
 							"include": "#literals"
+						},
+						{
+							"include": "#reservedWord"
 						}
 					]
 				}
@@ -371,12 +337,6 @@
 					"include": "#comments"
 				},
 				{
-					"include": "#keywords"
-				},
-				{
-					"include": "#keywords2"
-				},
-				{
 					"include": "#attributes"
 				},
 				{
@@ -387,6 +347,9 @@
 				},
 				{
 					"include": "#literals"
+				},
+				{
+					"include": "#reservedWord"
 				}
 			]
 		},
@@ -419,6 +382,12 @@
 					}]
 				}
 			]
+		},
+		"reservedWord": {
+			"patterns": [{
+				"name": "keyword.control.ada",
+				"match": "\\b(abort|abs|abstract|accept|access|aliased|all|and|array|at|begin|body|case|constant|declare|delay|delta|digits|do|else|elsif|end|entry|exception|exit|for|function|generic|goto|if|in|interface|is|limited|loop|mod|new|not|null|of|or|others|out|overriding|package|pragma|private|procedure|protected|raise|range|record|rem|renames|requeue|return|reverse|select|separate|some|subtype|synchronized|tagged|task|terminate|then|type|until|use|when|while|with|xor)\\b"
+			}]
 		}
 	},
 	"scopeName": "source.ada"
