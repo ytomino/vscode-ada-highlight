@@ -336,7 +336,14 @@
 			"contentName": "entity.name.selector.ada",
 			"begin": "<<",
 			"end": ">>",
-			"patterns": []
+			"patterns": [
+				{
+					"include": "#comments"
+				},
+				{
+					"include": "#reservedWord"
+				}
+			]
 		},
 		"parenthesis": {
 			"begin": "\\(",
