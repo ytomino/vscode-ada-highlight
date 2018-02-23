@@ -262,9 +262,6 @@
 				},
 				{
 					"include": "#delimiter"
-				},
-				{
-					"include": "#reservedWord"
 				}
 			]
 		},
