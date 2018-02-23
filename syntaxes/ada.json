@@ -232,7 +232,12 @@
 					"name": "meta.ada"
 				}
 			},
-			"end": "(?=[;(])",
+			"end": ";",
+			"endCaptures": {
+				"0": {
+					"name": "keyword.operator.ada"
+				}
+			},
 			"patterns": [
 				{
 					"include": "#comments"
@@ -245,6 +250,21 @@
 							"name": "entity.other.attribute-name.defined.ada"
 						}
 					}
+				},
+				{
+					"include": "#attributes"
+				},
+				{
+					"include": "#parenthesis"
+				},
+				{
+					"include": "#literals"
+				},
+				{
+					"include": "#delimiter"
+				},
+				{
+					"include": "#reservedWord"
 				}
 			]
 		},
