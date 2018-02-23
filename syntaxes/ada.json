@@ -275,7 +275,7 @@
 					"name": "meta.ada"
 				}
 			},
-			"end": "(?=;|\\b(entry|function|is|not|null|overriding|package|pragma|private|procedure|record|type)\\b)",
+			"end": "(?=;|\\b(end|entry|for|function|is|not|null|overriding|package|pragma|private|procedure|record)\\b)",
 			"patterns": [
 				{
 					"include": "#comments"
