@@ -269,7 +269,7 @@
 			]
 		},
 		"aspects": {
-			"begin": "(?!^)\\b(with)\\b",
+			"begin": "(?!^)\\b(with)\\b(?!\\s+(null|private|record)\\b)",
 			"beginCaptures": {
 				"1": {
 					"name": "meta.ada"
