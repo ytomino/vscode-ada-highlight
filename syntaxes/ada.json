@@ -229,7 +229,7 @@
 			"begin": "\\bpragma\\b",
 			"beginCaptures": {
 				"0": {
-					"name": "meta.ada"
+					"name": "keyword.other.ada"
 				}
 			},
 			"end": ";",
@@ -269,7 +269,7 @@
 			"begin": "(?!^)\\b(with)\\b(?!\\s+(null|private|record)\\b)",
 			"beginCaptures": {
 				"1": {
-					"name": "meta.ada"
+					"name": "keyword.other.ada"
 				}
 			},
 			"end": "(?=;|\\b(end|entry|for|function|is|not|null|overriding|package|pragma|private|procedure|record)\\b)",
