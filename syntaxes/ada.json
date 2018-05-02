@@ -12,6 +12,9 @@
 			"include": "#genericFormalPart"
 		},
 		{
+			"include": "#protectedTypeDeclaration"
+		},
+		{
 			"include": "#raiseStatements"
 		},
 		{
@@ -139,6 +142,75 @@
 							"include": "#reservedWord"
 						}
 					]
+				},
+				{
+					"include": "#attributes"
+				},
+				{
+					"include": "#parenthesis"
+				},
+				{
+					"include": "#literals"
+				},
+				{
+					"include": "#delimiter"
+				},
+				{
+					"include": "#reservedWord"
+				}
+			]
+		},
+		"protectedTypeDeclaration": {
+			"begin": "\\bprotected\\b|\\btask\\b(?!\\s+body\\b)",
+			"beginCaptures": {
+				"0": {
+					"name": "keyword.control.ada"
+				}
+			},
+			"end": "(?=\\b(end|entry|for|function|interface|not|null|overriding|pragma|private|procedure)\\b|;)",
+			"patterns": [
+				{
+					"include": "#comments"
+				},
+				{
+					"begin": "\\bnew\\b",
+					"beginCaptures": {
+						"0": {
+							"name": "keyword.control.ada"
+						}
+					},
+					"end": "\\b(with)\\b|(?=\\b(end|entry|for|function|interface|not|null|overriding|pragma|private|procedure)\\b|;)",
+					"endCaptures": {
+						"1": {
+							"name": "keyword.control.ada"
+						}
+					},
+					"patterns": [
+						{
+							"include": "#comments"
+						},
+						{
+							"include": "#attributes"
+						},
+						{
+							"include": "#parenthesis"
+						},
+						{
+							"include": "#literals"
+						},
+						{
+							"include": "#delimiter"
+						},
+						{
+							"include": "#reservedWord"
+						}
+					]
+				},
+				{
+					"include": "#pragmas"
+				},
+				{
+					"include": "#aspects"
 				},
 				{
 					"include": "#attributes"
