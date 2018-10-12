@@ -1,0 +1,294 @@
+{
+	"abort": {
+		"prefix": "abort",
+		"body": "abort"
+	},
+	"abs": {
+		"prefix": "abs",
+		"body": "abs"
+	},
+	"abstract": {
+		"prefix": "abstract",
+		"body": "abstract"
+	},
+	"accept": {
+		"prefix": "accept",
+		"body": "accept"
+	},
+	"access": {
+		"prefix": "access",
+		"body": "access"
+	},
+	"aliased": {
+		"prefix": "aliased",
+		"body": "aliased"
+	},
+	"all": {
+		"prefix": "all",
+		"body": "all"
+	},
+	"and": {
+		"prefix": "and",
+		"body": "and"
+	},
+	"array": {
+		"prefix": "array",
+		"body": "array"
+	},
+	"at": {
+		"prefix": "at",
+		"body": "at"
+	},
+	"begin": {
+		"prefix": "begin",
+		"body": "begin"
+	},
+	"body": {
+		"prefix": "body",
+		"body": "body"
+	},
+	"case": {
+		"prefix": "case",
+		"body": "case"
+	},
+	"constant": {
+		"prefix": "constant",
+		"body": "constant"
+	},
+	"declare": {
+		"prefix": "declare",
+		"body": "declare"
+	},
+	"delay": {
+		"prefix": "delay",
+		"body": "delay"
+	},
+	"delta": {
+		"prefix": "delta",
+		"body": "delta"
+	},
+	"digits": {
+		"prefix": "digits",
+		"body": "digits"
+	},
+	"do": {
+		"prefix": "do",
+		"body": "do"
+	},
+	"else": {
+		"prefix": "else",
+		"body": "else"
+	},
+	"elsif": {
+		"prefix": "elsif",
+		"body": "elsif"
+	},
+	"end": {
+		"prefix": "end",
+		"body": "end"
+	},
+	"entry": {
+		"prefix": "entry",
+		"body": "entry"
+	},
+	"exception": {
+		"prefix": "exception",
+		"body": "exception"
+	},
+	"exit": {
+		"prefix": "exit",
+		"body": "exit"
+	},
+	"for": {
+		"prefix": "for",
+		"body": "for"
+	},
+	"function": {
+		"prefix": "function",
+		"body": "function"
+	},
+	"generic": {
+		"prefix": "generic",
+		"body": "generic"
+	},
+	"goto": {
+		"prefix": "goto",
+		"body": "goto"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "if"
+	},
+	"in": {
+		"prefix": "in",
+		"body": "in"
+	},
+	"interface": {
+		"prefix": "interface",
+		"body": "interface"
+	},
+	"is": {
+		"prefix": "is",
+		"body": "is"
+	},
+	"limited": {
+		"prefix": "limited",
+		"body": "limited"
+	},
+	"loop": {
+		"prefix": "loop",
+		"body": "loop"
+	},
+	"mod": {
+		"prefix": "mod",
+		"body": "mod"
+	},
+	"new": {
+		"prefix": "new",
+		"body": "new"
+	},
+	"not": {
+		"prefix": "not",
+		"body": "not"
+	},
+	"null": {
+		"prefix": "null",
+		"body": "null"
+	},
+	"of": {
+		"prefix": "of",
+		"body": "of"
+	},
+	"or": {
+		"prefix": "or",
+		"body": "or"
+	},
+	"others": {
+		"prefix": "others",
+		"body": "others"
+	},
+	"out": {
+		"prefix": "out",
+		"body": "out"
+	},
+	"overriding": {
+		"prefix": "overriding",
+		"body": "overriding"
+	},
+	"package": {
+		"prefix": "package",
+		"body": "package"
+	},
+	"pragma": {
+		"prefix": "pragma",
+		"body": "pragma"
+	},
+	"private": {
+		"prefix": "private",
+		"body": "private"
+	},
+	"procedure": {
+		"prefix": "procedure",
+		"body": "procedure"
+	},
+	"protected": {
+		"prefix": "protected",
+		"body": "protected"
+	},
+	"raise": {
+		"prefix": "raise",
+		"body": "raise"
+	},
+	"range": {
+		"prefix": "range",
+		"body": "range"
+	},
+	"record": {
+		"prefix": "record",
+		"body": "record"
+	},
+	"rem": {
+		"prefix": "rem",
+		"body": "rem"
+	},
+	"renames": {
+		"prefix": "renames",
+		"body": "renames"
+	},
+	"requeue": {
+		"prefix": "requeue",
+		"body": "requeue"
+	},
+	"return": {
+		"prefix": "return",
+		"body": "return"
+	},
+	"reverse": {
+		"prefix": "reverse",
+		"body": "reverse"
+	},
+	"select": {
+		"prefix": "select",
+		"body": "select"
+	},
+	"separate": {
+		"prefix": "separate",
+		"body": "separate"
+	},
+	"some": {
+		"prefix": "some",
+		"body": "some"
+	},
+	"subtype": {
+		"prefix": "subtype",
+		"body": "subtype"
+	},
+	"synchronized": {
+		"prefix": "synchronized",
+		"body": "synchronized"
+	},
+	"tagged": {
+		"prefix": "tagged",
+		"body": "tagged"
+	},
+	"task": {
+		"prefix": "task",
+		"body": "task"
+	},
+	"terminate": {
+		"prefix": "terminate",
+		"body": "terminate"
+	},
+	"then": {
+		"prefix": "then",
+		"body": "then"
+	},
+	"type": {
+		"prefix": "type",
+		"body": "type"
+	},
+	"until": {
+		"prefix": "until",
+		"body": "until"
+	},
+	"use": {
+		"prefix": "use",
+		"body": "use"
+	},
+	"when": {
+		"prefix": "when",
+		"body": "when"
+	},
+	"while": {
+		"prefix": "while",
+		"body": "while"
+	},
+	"with": {
+		"prefix": "with",
+		"body": "with"
+	},
+	"xor": {
+		"prefix": "xor",
+		"body": "xor"
+	}
+}

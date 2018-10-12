@@ -37,6 +37,16 @@
                 "severity": 4,
                 "message": 5
             }
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "ada",
+                "path": "./snippets/reserved-words.json"
+            },
+            {
+                "language": "ada",
+                "path": "./snippets/predefined.json"
+            }
+        ]
     }
 }
