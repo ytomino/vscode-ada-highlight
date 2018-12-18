@@ -386,6 +386,10 @@
 							"include": "#reservedWord"
 						}
 					]
+				},
+				{
+					"name": "keyword.operator.ada",
+					"match": ","
 				}
 			]
 		},
