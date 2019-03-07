@@ -179,6 +179,10 @@
 		"prefix": "package",
 		"body": "package"
 	},
+	"parallel": {
+		"prefix": "parallel",
+		"body": "parallel"
+	},
 	"pragma": {
 		"prefix": "pragma",
 		"body": "pragma"
