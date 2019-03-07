@@ -36,6 +36,9 @@
 			"include": "#parenthesis"
 		},
 		{
+			"include": "#aggregate"
+		},
+		{
 			"include": "#literals"
 		},
 		{
@@ -79,6 +82,9 @@
 				},
 				{
 					"include": "#parenthesis"
+				},
+				{
+					"include": "#aggregate"
 				},
 				{
 					"include": "#literals"
@@ -133,6 +139,9 @@
 							"include": "#parenthesis"
 						},
 						{
+							"include": "#aggregate"
+						},
+						{
 							"include": "#literals"
 						},
 						{
@@ -148,6 +157,9 @@
 				},
 				{
 					"include": "#parenthesis"
+				},
+				{
+					"include": "#aggregate"
 				},
 				{
 					"include": "#literals"
@@ -196,6 +208,9 @@
 							"include": "#parenthesis"
 						},
 						{
+							"include": "#aggregate"
+						},
+						{
 							"include": "#literals"
 						},
 						{
@@ -217,6 +232,9 @@
 				},
 				{
 					"include": "#parenthesis"
+				},
+				{
+					"include": "#aggregate"
 				},
 				{
 					"include": "#literals"
@@ -253,6 +271,9 @@
 					"include": "#parenthesis"
 				},
 				{
+					"include": "#aggregate"
+				},
+				{
 					"include": "#literals"
 				},
 				{
@@ -285,6 +306,9 @@
 				},
 				{
 					"include": "#parenthesis"
+				},
+				{
+					"include": "#aggregate"
 				},
 				{
 					"include": "#literals"
@@ -328,6 +352,9 @@
 				},
 				{
 					"include": "#parenthesis"
+				},
+				{
+					"include": "#aggregate"
 				},
 				{
 					"include": "#literals"
@@ -375,6 +402,9 @@
 						},
 						{
 							"include": "#parenthesis"
+						},
+						{
+							"include": "#aggregate"
 						},
 						{
 							"include": "#literals"
@@ -440,6 +470,46 @@
 				},
 				{
 					"include": "#parenthesis"
+				},
+				{
+					"include": "#aggregate"
+				},
+				{
+					"include": "#literals"
+				},
+				{
+					"include": "#delimiter"
+				},
+				{
+					"include": "#reservedWord"
+				}
+			]
+		},
+		"aggregate": {
+			"begin": "\\[",
+			"beginCaptures": {
+				"0": {
+					"name": "keyword.operator.ada"
+				}
+			},
+			"end": "\\]",
+			"endCaptures": {
+				"0": {
+					"name": "keyword.operator.ada"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#comments"
+				},
+				{
+					"include": "#attributes"
+				},
+				{
+					"include": "#parenthesis"
+				},
+				{
+					"include": "#aggregate"
 				},
 				{
 					"include": "#literals"
