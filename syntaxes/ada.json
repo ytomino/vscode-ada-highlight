@@ -526,7 +526,7 @@
 			"patterns": [
 				{
 					"name": "constant.numeric.ada",
-					"match": "\\b\\d[[:digit:]_]*((\\.[[:digit:]_]+|#[[:xdigit:]_]+(\\.[[:xdigit:]_]+)?#)([eE][+\\-]?[[:digit:]_]+)?)?"
+					"match": "\\b\\d[[:digit:]_]*((\\.[[:digit:]_]+|#[[:xdigit:]_]+(\\.[[:xdigit:]_]+)?#|:[[:xdigit:]_]+(\\.[[:xdigit:]_]+)?:)([eE][+\\-]?[[:digit:]_]+)?)?"
 				},
 				{
 					"name": "string.quoted.single.ada",
@@ -555,7 +555,7 @@
 		"delimiter": {
 			"patterns": [{
 				"name": "keyword.operator.ada",
-				"match": "&|'|\\*\\*?|\\+|,|-|\\.\\.?|/=?|:=?|;|<[<=>]?|=>?|>[=>]?|@|\\|"
+				"match": "&|'|\\*\\*?|\\+|,|-|\\.\\.?|/=?|:=?|;|<[<=>]?|=>?|>[=>]?|@|\\||!"
 			}]
 		},
 		"reservedWord": {
