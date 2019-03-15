@@ -1,0 +1,72 @@
+{
+	"Boolean": {
+		"prefix": "Boolean",
+		"body": "Boolean",
+		"description": "type Boolean is (False, True)"
+	},
+	"False": {
+		"prefix": "False",
+		"body": "False",
+		"description": "type Boolean is (False, True)"
+	},
+	"True": {
+		"prefix": "True",
+		"body": "True",
+		"description": "type Boolean is (False, True)"
+	},
+	"Integer": {
+		"prefix": "Integer",
+		"body": "Integer",
+		"description": "type Integer is range ..."
+	},
+	"Natural": {
+		"prefix": "Natural",
+		"body": "Natural",
+		"description": "subtype Natural  is Integer range 0 .. Integer'Last"
+	},
+	"Positive": {
+		"prefix": "Positive",
+		"body": "Positive",
+		"description": "subtype Positive is Integer range 1 .. Integer'Last"
+	},
+	"Float": {
+		"prefix": "Float",
+		"body": "Float",
+		"description": "type Float is digits ..."
+	},
+	"Character": {
+		"prefix": "Character",
+		"body": "Character",
+		"description": "type Character is (...)"
+	},
+	"String": {
+		"prefix": "String",
+		"body": "String",
+		"description": "type String is array (Positive range <>) of Character"
+	},
+	"Duration": {
+		"prefix": "Duration",
+		"body": "Duration",
+		"description": "type Duration is delta ... range ..."
+	},
+	"Constraint_Error": {
+		"prefix": "Constraint_Error",
+		"body": "Constraint_Error",
+		"description": "Constraint_Error : exception"
+	},
+	"Program_Error": {
+		"prefix": "Program_Error",
+		"body": "Program_Error",
+		"description": "Program_Error : exception"
+	},
+	"Storage_Error": {
+		"prefix": "Storage_Error",
+		"body": "Storage_Error",
+		"description": "Storage_Error : exception"
+	},
+	"Tasking_Error": {
+		"prefix": "Tasking_Error",
+		"body": "Tasking_Error",
+		"description": "Tasking_Error : exception"
+	}
+}

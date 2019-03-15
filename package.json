@@ -45,6 +45,10 @@
             },
             {
                 "language": "ada",
+                "path": "./snippets/standard.json"
+            },
+            {
+                "language": "ada",
                 "path": "./snippets/predefined.json"
             }
         ]
