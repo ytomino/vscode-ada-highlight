@@ -15,117 +15,117 @@
 		"description": "package"
 	},
 	"a.assert": {
-		"prefix": "Ada.Assertions",
+		"prefix": ["Ada.Assertions", "a.assert"],
 		"body": "Ada.Assertions",
 		"description": "package"
 	},
 	"a.astaco": {
-		"prefix": "Ada.Asynchronous_Task_Control",
+		"prefix": ["Ada.Asynchronous_Task_Control", "a.astaco"],
 		"body": "Ada.Asynchronous_Task_Control",
 		"description": "package"
 	},
 	"a.calend": {
-		"prefix": "Ada.Calendar",
+		"prefix": ["Ada.Calendar", "a.calend"],
 		"body": "Ada.Calendar",
 		"description": "package"
 	},
 	"a.calari": {
-		"prefix": "Ada.Calendar.Arithmetic",
+		"prefix": ["Ada.Calendar.Arithmetic", "a.calari"],
 		"body": "Ada.Calendar.Arithmetic",
 		"description": "package"
 	},
 	"a.calfor": {
-		"prefix": "Ada.Calendar.Formatting",
+		"prefix": ["Ada.Calendar.Formatting", "a.calfor"],
 		"body": "Ada.Calendar.Formatting",
 		"description": "package"
 	},
 	"a.catizo": {
-		"prefix": "Ada.Calendar.Time_Zones",
+		"prefix": ["Ada.Calendar.Time_Zones", "a.catizo"],
 		"body": "Ada.Calendar.Time_Zones",
 		"description": "package"
 	},
 	"a.charac": {
-		"prefix": "Ada.Characters",
+		"prefix": ["Ada.Characters", "a.charac"],
 		"body": "Ada.Characters",
 		"description": "package"
 	},
 	"a.chacon": {
-		"prefix": "Ada.Characters.Conversions",
+		"prefix": ["Ada.Characters.Conversions", "a.chacon"],
 		"body": "Ada.Characters.Conversions",
 		"description": "package"
 	},
 	"a.chahan": {
-		"prefix": "Ada.Characters.Handling",
+		"prefix": ["Ada.Characters.Handling", "a.chahan"],
 		"body": "Ada.Characters.Handling",
 		"description": "package"
 	},
 	"a.chlat1": {
-		"prefix": "Ada.Characters.Latin_1",
+		"prefix": ["Ada.Characters.Latin_1", "a.chlat1"],
 		"body": "Ada.Characters.Latin_1",
 		"description": "package"
 	},
 	"a.comlin": {
-		"prefix": "Ada.Command_Line",
+		"prefix": ["Ada.Command_Line", "a.comlin"],
 		"body": "Ada.Command_Line",
 		"description": "package"
 	},
 	"a.coteio": {
-		"prefix": "Ada.Complex_Text_IO",
+		"prefix": ["Ada.Complex_Text_IO", "a.coteio"],
 		"body": "Ada.Complex_Text_IO",
 		"description": "package"
 	},
 	"a.contai": {
-		"prefix": "Ada.Containers",
+		"prefix": ["Ada.Containers", "a.contai"],
 		"body": "Ada.Containers",
 		"description": "package"
 	},
 	"a.cbdlli": {
-		"prefix": "Ada.Containers.Bounded_Doubly_Linked_Lists",
+		"prefix": ["Ada.Containers.Bounded_Doubly_Linked_Lists", "a.cbdlli"],
 		"body": "Ada.Containers.Bounded_Doubly_Linked_Lists",
 		"description": "generic package"
 	},
 	"a.cbhama": {
-		"prefix": "Ada.Containers.Bounded_Hashed_Maps",
+		"prefix": ["Ada.Containers.Bounded_Hashed_Maps", "a.cbhama"],
 		"body": "Ada.Containers.Bounded_Hashed_Maps",
 		"description": "generic package"
 	},
 	"a.cbhase": {
-		"prefix": "Ada.Containers.Bounded_Hashed_Sets",
+		"prefix": ["Ada.Containers.Bounded_Hashed_Sets", "a.cbhase"],
 		"body": "Ada.Containers.Bounded_Hashed_Sets",
 		"description": "generic package"
 	},
 	"a.cbmutr": {
-		"prefix": "Ada.Containers.Bounded_Multiway_Trees",
+		"prefix": ["Ada.Containers.Bounded_Multiway_Trees", "a.cbmutr"],
 		"body": "Ada.Containers.Bounded_Multiway_Trees",
 		"description": "generic package"
 	},
 	"a.cborma": {
-		"prefix": "Ada.Containers.Bounded_Ordered_Maps",
+		"prefix": ["Ada.Containers.Bounded_Ordered_Maps", "a.cborma"],
 		"body": "Ada.Containers.Bounded_Ordered_Maps",
 		"description": "generic package"
 	},
 	"a.cborse": {
-		"prefix": "Ada.Containers.Bounded_Ordered_Sets",
+		"prefix": ["Ada.Containers.Bounded_Ordered_Sets", "a.cborse"],
 		"body": "Ada.Containers.Bounded_Ordered_Sets",
 		"description": "generic package"
 	},
 	"a.cbprqu": {
-		"prefix": "Ada.Containers.Bounded_Priority_Queues",
+		"prefix": ["Ada.Containers.Bounded_Priority_Queues", "a.cbprqu"],
 		"body": "Ada.Containers.Bounded_Priority_Queues",
 		"description": "generic package"
 	},
 	"a.cbsyqu": {
-		"prefix": "Ada.Containers.Bounded_Synchronized_Queues",
+		"prefix": ["Ada.Containers.Bounded_Synchronized_Queues", "a.cbsyqu"],
 		"body": "Ada.Containers.Bounded_Synchronized_Queues",
 		"description": "generic package"
 	},
 	"a.cobove": {
-		"prefix": "Ada.Containers.Bounded_Vectors",
+		"prefix": ["Ada.Containers.Bounded_Vectors", "a.cobove"],
 		"body": "Ada.Containers.Bounded_Vectors",
 		"description": "generic package"
 	},
 	"a.cdlili": {
-		"prefix": "Ada.Containers.Doubly_Linked_Lists",
+		"prefix": ["Ada.Containers.Doubly_Linked_Lists", "a.cdlili"],
 		"body": "Ada.Containers.Doubly_Linked_Lists",
 		"description": "generic package"
 	},
@@ -140,22 +140,22 @@
 		"description": "package\nin new Doubly_Linked_Lists"
 	},
 	"a.cgarso": {
-		"prefix": "Ada.Containers.Generic_Array_Sort",
+		"prefix": ["Ada.Containers.Generic_Array_Sort", "a.cgarso"],
 		"body": "Ada.Containers.Generic_Array_Sort",
 		"description": "generic procedure"
 	},
 	"a.cgcaso": {
-		"prefix": "Ada.Containers.Generic_Constrained_Array_Sort",
+		"prefix": ["Ada.Containers.Generic_Constrained_Array_Sort", "a.cgcaso"],
 		"body": "Ada.Containers.Generic_Constrained_Array_Sort",
 		"description": "generic procedure"
 	},
 	"a.cogeso": {
-		"prefix": "Ada.Containers.Generic_Sort",
+		"prefix": ["Ada.Containers.Generic_Sort", "a.cogeso"],
 		"body": "Ada.Containers.Generic_Sort",
 		"description": "generic procedure"
 	},
 	"a.cohama": {
-		"prefix": "Ada.Containers.Hashed_Maps",
+		"prefix": ["Ada.Containers.Hashed_Maps", "a.cohama"],
 		"body": "Ada.Containers.Hashed_Maps",
 		"description": "generic package"
 	},
@@ -165,7 +165,7 @@
 		"description": "package\nin new Hashed_Maps|Ordered_Maps"
 	},
 	"a.cohase": {
-		"prefix": "Ada.Containers.Hashed_Sets",
+		"prefix": ["Ada.Containers.Hashed_Sets", "a.cohase"],
 		"body": "Ada.Containers.Hashed_Sets",
 		"description": "generic package"
 	},
@@ -180,47 +180,47 @@
 		"description": "generic package\nin new Hashed_Sets|Ordered_Sets"
 	},
 	"a.cidlli": {
-		"prefix": "Ada.Containers.Indefinite_Doubly_Linked_Lists",
+		"prefix": ["Ada.Containers.Indefinite_Doubly_Linked_Lists", "a.cidlli"],
 		"body": "Ada.Containers.Indefinite_Doubly_Linked_Lists",
 		"description": "generic package"
 	},
 	"a.cihama": {
-		"prefix": "Ada.Containers.Indefinite_Hashed_Maps",
+		"prefix": ["Ada.Containers.Indefinite_Hashed_Maps", "a.cihama"],
 		"body": "Ada.Containers.Indefinite_Hashed_Maps",
 		"description": "generic package"
 	},
 	"a.cihase": {
-		"prefix": "Ada.Containers.Indefinite_Hashed_Sets",
+		"prefix": ["Ada.Containers.Indefinite_Hashed_Sets", "a.cihase"],
 		"body": "Ada.Containers.Indefinite_Hashed_Sets",
 		"description": "generic package"
 	},
 	"a.coinho": {
-		"prefix": "Ada.Containers.Indefinite_Holders",
+		"prefix": ["Ada.Containers.Indefinite_Holders", "a.coinho"],
 		"body": "Ada.Containers.Indefinite_Holders",
 		"description": "generic package"
 	},
 	"a.cimutr": {
-		"prefix": "Ada.Containers.Indefinite_Multiway_Trees",
+		"prefix": ["Ada.Containers.Indefinite_Multiway_Trees", "a.cimutr"],
 		"body": "Ada.Containers.Indefinite_Multiway_Trees",
 		"description": "generic package"
 	},
 	"a.ciorma": {
-		"prefix": "Ada.Containers.Indefinite_Ordered_Maps",
+		"prefix": ["Ada.Containers.Indefinite_Ordered_Maps", "a.ciorma"],
 		"body": "Ada.Containers.Indefinite_Ordered_Maps",
 		"description": "generic package"
 	},
 	"a.ciorse": {
-		"prefix": "Ada.Containers.Indefinite_Ordered_Sets",
+		"prefix": ["Ada.Containers.Indefinite_Ordered_Sets", "a.ciorse"],
 		"body": "Ada.Containers.Indefinite_Ordered_Sets",
 		"description": "generic package"
 	},
 	"a.coinve": {
-		"prefix": "Ada.Containers.Indefinite_Vectors",
+		"prefix": ["Ada.Containers.Indefinite_Vectors", "a.coinve"],
 		"body": "Ada.Containers.Indefinite_Vectors",
 		"description": "generic package"
 	},
 	"a.comutr": {
-		"prefix": "Ada.Containers.Multiway_Trees",
+		"prefix": ["Ada.Containers.Multiway_Trees", "a.comutr"],
 		"body": "Ada.Containers.Multiway_Trees",
 		"description": "generic package"
 	},
@@ -230,32 +230,32 @@
 		"description": "package\nin new Multiway_Trees"
 	},
 	"a.coorma": {
-		"prefix": "Ada.Containers.Ordered_Maps",
+		"prefix": ["Ada.Containers.Ordered_Maps", "a.coorma"],
 		"body": "Ada.Containers.Ordered_Maps",
 		"description": "generic package"
 	},
 	"a.coorse": {
-		"prefix": "Ada.Containers.Ordered_Sets",
+		"prefix": ["Ada.Containers.Ordered_Sets", "a.coorse"],
 		"body": "Ada.Containers.Ordered_Sets",
 		"description": "generic package"
 	},
 	"a.csquin": {
-		"prefix": "Ada.Containers.Synchronized_Queue_Interfaces",
+		"prefix": ["Ada.Containers.Synchronized_Queue_Interfaces", "a.csquin"],
 		"body": "Ada.Containers.Synchronized_Queue_Interfaces",
 		"description": "generic package"
 	},
 	"a.cuprqu": {
-		"prefix": "Ada.Containers.Unbounded_Priority_Queues",
+		"prefix": ["Ada.Containers.Unbounded_Priority_Queues", "a.cuprqu"],
 		"body": "Ada.Containers.Unbounded_Priority_Queues",
 		"description": "generic package"
 	},
 	"a.cusyqu": {
-		"prefix": "Ada.Containers.Unbounded_Synchronized_Queues",
+		"prefix": ["Ada.Containers.Unbounded_Synchronized_Queues", "a.cusyqu"],
 		"body": "Ada.Containers.Unbounded_Synchronized_Queues",
 		"description": "generic package"
 	},
 	"a.convec": {
-		"prefix": "Ada.Containers.Vectors",
+		"prefix": ["Ada.Containers.Vectors", "a.convec"],
 		"body": "Ada.Containers.Vectors",
 		"description": "generic package"
 	},
@@ -265,7 +265,7 @@
 		"description": "package\nin new Vectors"
 	},
 	"a.decima": {
-		"prefix": "Ada.Decimal",
+		"prefix": ["Ada.Decimal", "a.decima"],
 		"body": "Ada.Decimal",
 		"description": "package"
 	},
@@ -275,222 +275,225 @@
 		"description": "generic procedure\nin Decimal"
 	},
 	"a.direio": {
-		"prefix": "Ada.Direct_IO",
+		"prefix": ["Ada.Direct_IO", "a.direio"],
 		"body": "Ada.Direct_IO",
 		"description": "generic package"
 	},
 	"a.direct": {
-		"prefix": "Ada.Directories",
+		"prefix": ["Ada.Directories", "a.direct"],
 		"body": "Ada.Directories",
 		"description": "package"
 	},
 	"a.dhfina": {
-		"prefix": "Ada.Directories.Hierarchical_File_Names",
+		"prefix": ["Ada.Directories.Hierarchical_File_Names", "a.dhfina"],
 		"body": "Ada.Directories.Hierarchical_File_Names",
 		"description": "package"
 	},
 	"a.dirinf": {
-		"prefix": "Ada.Directories.Information",
+		"prefix": ["Ada.Directories.Information", "a.dirinf"],
 		"body": "Ada.Directories.Information",
 		"description": "package"
 	},
 	"a.dispat": {
-		"prefix": "Ada.Dispatching",
+		"prefix": ["Ada.Dispatching", "a.dispat"],
 		"body": "Ada.Dispatching",
 		"description": "package"
 	},
 	"a.disedf": {
-		"prefix": "Ada.Dispatching.EDF",
+		"prefix": ["Ada.Dispatching.EDF", "a.disedf"],
 		"body": "Ada.Dispatching.EDF",
 		"description": "package"
 	},
 	"a.dinopr": {
-		"prefix": "Ada.Dispatching.Non_Preemptive",
+		"prefix": ["Ada.Dispatching.Non_Preemptive", "a.dinopr"],
 		"body": "Ada.Dispatching.Non_Preemptive",
 		"description": "package"
 	},
 	"a.diroro": {
-		"prefix": "Ada.Dispatching.Round_Robin",
+		"prefix": ["Ada.Dispatching.Round_Robin", "a.diroro"],
 		"body": "Ada.Dispatching.Round_Robin",
 		"description": "package"
 	},
 	"a.dynpri": {
-		"prefix": "Ada.Dynamic_Priorities",
+		"prefix": ["Ada.Dynamic_Priorities", "a.dynpri"],
 		"body": "Ada.Dynamic_Priorities",
 		"description": "package"
 	},
 	"a.envvar": {
-		"prefix": "Ada.Environment_Variables",
+		"prefix": ["Ada.Environment_Variables", "a.envvar"],
 		"body": "Ada.Environment_Variables",
 		"description": "package"
 	},
 	"a.except": {
-		"prefix": "Ada.Exceptions",
+		"prefix": ["Ada.Exceptions", "a.except"],
 		"body": "Ada.Exceptions",
 		"description": "package"
 	},
 	"a.exetim": {
-		"prefix": "Ada.Execution_Time",
+		"prefix": ["Ada.Execution_Time", "a.exetim"],
 		"body": "Ada.Execution_Time",
 		"description": "package"
 	},
 	"a.etgrbu": {
-		"prefix": "Ada.Execution_Time.Group_Budgets",
+		"prefix": ["Ada.Execution_Time.Group_Budgets", "a.etgrbu"],
 		"body": "Ada.Execution_Time.Group_Budgets",
 		"description": "package"
 	},
 	"a.extiin": {
-		"prefix": "Ada.Execution_Time.Interrupts",
+		"prefix": ["Ada.Execution_Time.Interrupts", "a.extiin"],
 		"body": "Ada.Execution_Time.Interrupts",
 		"description": "package"
 	},
 	"a.extiti": {
-		"prefix": "Ada.Execution_Time.Timers",
+		"prefix": ["Ada.Execution_Time.Timers", "a.extiti"],
 		"body": "Ada.Execution_Time.Timers",
 		"description": "package"
 	},
 	"a.finali": {
-		"prefix": "Ada.Finalization",
+		"prefix": ["Ada.Finalization", "a.finali"],
 		"body": "Ada.Finalization",
 		"description": "package"
 	},
 	"a.flteio": {
-		"prefix": "Ada.Float_Text_IO",
+		"prefix": ["Ada.Float_Text_IO", "a.flteio"],
 		"body": "Ada.Float_Text_IO",
 		"description": "package"
 	},
 	"a.inteio": {
-		"prefix": "Ada.Integer_Text_IO",
+		"prefix": ["Ada.Integer_Text_IO", "a.inteio"],
 		"body": "Ada.Integer_Text_IO",
 		"description": "package"
 	},
 	"a.interr": {
-		"prefix": "Ada.Interrupts",
+		"prefix": ["Ada.Interrupts", "a.interr"],
 		"body": "Ada.Interrupts",
 		"description": "package"
 	},
 	"a.intnam": {
-		"prefix": "Ada.Interrupts.Names",
+		"prefix": ["Ada.Interrupts.Names", "a.intnam"],
 		"body": "Ada.Interrupts.Names",
 		"description": "package"
 	},
 	"a.ioexce": {
-		"prefix": "Ada.IO_Exceptions",
+		"prefix": ["Ada.IO_Exceptions", "a.ioexce"],
 		"body": "Ada.IO_Exceptions",
 		"description": "package"
 	},
 	"a.iteint": {
-		"prefix": "Ada.Iterator_Interfaces",
+		"prefix": ["Ada.Iterator_Interfaces", "a.iteint"],
 		"body": "Ada.Iterator_Interfaces",
 		"description": "generic package"
 	},
 	"a.locale": {
-		"prefix": "Ada.Locales",
+		"prefix": ["Ada.Locales", "a.locale"],
 		"body": "Ada.Locales",
 		"description": "package"
 	},
 	"a.numeri": {
-		"prefix": "Ada.Numerics",
+		"prefix": ["Ada.Numerics", "a.numeri"],
 		"body": "Ada.Numerics",
 		"description": "package"
 	},
 	"a.nucoar": {
-		"prefix": "Ada.Numerics.Complex_Arrays",
+		"prefix": ["Ada.Numerics.Complex_Arrays", "a.nucoar"],
 		"body": "Ada.Numerics.Complex_Arrays",
 		"description": "package"
 	},
 	"a.ncelfu": {
-		"prefix": "Ada.Numerics.Complex_Elementary_Functions",
+		"prefix": ["Ada.Numerics.Complex_Elementary_Functions", "a.ncelfu"],
 		"body": "Ada.Numerics.Complex_Elementary_Functions",
 		"description": "package"
 	},
 	"a.nucoty": {
-		"prefix": "Ada.Numerics.Complex_Types",
+		"prefix": ["Ada.Numerics.Complex_Types", "a.nucoty"],
 		"body": "Ada.Numerics.Complex_Types",
 		"description": "package"
 	},
 	"a.nudira": {
-		"prefix": "Ada.Numerics.Discrete_Random",
+		"prefix": ["Ada.Numerics.Discrete_Random", "a.nudira"],
 		"body": "Ada.Numerics.Discrete_Random",
 		"description": "generic package"
 	},
 	"a.nuelfu": {
-		"prefix": "Ada.Numerics.Elementary_Functions",
+		"prefix": ["Ada.Numerics.Elementary_Functions", "a.nuelfu"],
 		"body": "Ada.Numerics.Elementary_Functions",
 		"description": "package"
 	},
 	"a.nuflra": {
-		"prefix": "Ada.Numerics.Float_Random",
+		"prefix": ["Ada.Numerics.Float_Random", "a.nuflra"],
 		"body": "Ada.Numerics.Float_Random",
 		"description": "package"
 	},
 	"a.ngcoar": {
-		"prefix": "Ada.Numerics.Generic_Complex_Arrays",
+		"prefix": ["Ada.Numerics.Generic_Complex_Arrays", "a.ngcoar"],
 		"body": "Ada.Numerics.Generic_Complex_Arrays",
 		"description": "generic package"
 	},
 	"a.ngcefu": {
-		"prefix": "Ada.Numerics.Generic_Complex_Elementary_Functions",
+		"prefix": [
+			"Ada.Numerics.Generic_Complex_Elementary_Functions",
+			"a.ngcefu"
+		],
 		"body": "Ada.Numerics.Generic_Complex_Elementary_Functions",
 		"description": "generic package"
 	},
 	"a.ngcoty": {
-		"prefix": "Ada.Numerics.Generic_Complex_Types",
+		"prefix": ["Ada.Numerics.Generic_Complex_Types", "a.ngcoty"],
 		"body": "Ada.Numerics.Generic_Complex_Types",
 		"description": "generic package"
 	},
 	"a.ngelfu": {
-		"prefix": "Ada.Numerics.Generic_Elementary_Functions",
+		"prefix": ["Ada.Numerics.Generic_Elementary_Functions", "a.ngelfu"],
 		"body": "Ada.Numerics.Generic_Elementary_Functions",
 		"description": "generic package"
 	},
 	"a.ngrear": {
-		"prefix": "Ada.Numerics.Generic_Real_Arrays",
+		"prefix": ["Ada.Numerics.Generic_Real_Arrays", "a.ngrear"],
 		"body": "Ada.Numerics.Generic_Real_Arrays",
 		"description": "generic package"
 	},
 	"a.nurear": {
-		"prefix": "Ada.Numerics.Real_Arrays",
+		"prefix": ["Ada.Numerics.Real_Arrays", "a.nurear"],
 		"body": "Ada.Numerics.Real_Arrays",
 		"description": "package"
 	},
 	"a.reatim": {
-		"prefix": "Ada.Real_Time",
+		"prefix": ["Ada.Real_Time", "a.reatim"],
 		"body": "Ada.Real_Time",
 		"description": "package"
 	},
 	"a.rttiev": {
-		"prefix": "Ada.Real_Time.Timing_Events",
+		"prefix": ["Ada.Real_Time.Timing_Events", "a.rttiev"],
 		"body": "Ada.Real_Time.Timing_Events",
 		"description": "package"
 	},
 	"a.sequio": {
-		"prefix": "Ada.Sequential_IO",
+		"prefix": ["Ada.Sequential_IO", "a.sequio"],
 		"body": "Ada.Sequential_IO",
 		"description": "generic package"
 	},
 	"a.storio": {
-		"prefix": "Ada.Storage_IO",
+		"prefix": ["Ada.Storage_IO", "a.storio"],
 		"body": "Ada.Storage_IO",
 		"description": "generic package"
 	},
 	"a.stream": {
-		"prefix": "Ada.Streams",
+		"prefix": ["Ada.Streams", "a.stream"],
 		"body": "Ada.Streams",
 		"description": "package"
 	},
 	"a.ststio": {
-		"prefix": "Ada.Streams.Stream_IO",
+		"prefix": ["Ada.Streams.Stream_IO", "a.ststio"],
 		"body": "Ada.Streams.Stream_IO",
 		"description": "package"
 	},
 	"a.string": {
-		"prefix": "Ada.Strings",
+		"prefix": ["Ada.Strings", "a.string"],
 		"body": "Ada.Strings",
 		"description": "package"
 	},
 	"a.strbou": {
-		"prefix": "Ada.Strings.Bounded",
+		"prefix": ["Ada.Strings.Bounded", "a.strbou"],
 		"body": "Ada.Strings.Bounded",
 		"description": "package"
 	},
@@ -500,162 +503,162 @@
 		"description": "generic package\nin Bounded"
 	},
 	"a.sbecin": {
-		"prefix": "Ada.Strings.Bounded.Equal_Case_Insensitive",
+		"prefix": ["Ada.Strings.Bounded.Equal_Case_Insensitive", "a.sbecin"],
 		"body": "Ada.Strings.Bounded.Equal_Case_Insensitive",
 		"description": "generic function"
 	},
 	"a.sbfiha": {
-		"prefix": "Ada.Strings.Bounded.Hash",
+		"prefix": ["Ada.Strings.Bounded.Hash", "a.sbfiha"],
 		"body": "Ada.Strings.Bounded.Hash",
 		"description": "generic function"
 	},
 	"a.sbhcin": {
-		"prefix": "Ada.Strings.Bounded.Hash_Case_Insensitive",
+		"prefix": ["Ada.Strings.Bounded.Hash_Case_Insensitive", "a.sbhcin"],
 		"body": "Ada.Strings.Bounded.Hash_Case_Insensitive",
 		"description": "generic function"
 	},
 	"a.sblcin": {
-		"prefix": "Ada.Strings.Bounded.Less_Case_Insensitive",
+		"prefix": ["Ada.Strings.Bounded.Less_Case_Insensitive", "a.sblcin"],
 		"body": "Ada.Strings.Bounded.Less_Case_Insensitive",
 		"description": "generic function"
 	},
 	"a.secain": {
-		"prefix": "Ada.Strings.Equal_Case_Insensitive",
+		"prefix": ["Ada.Strings.Equal_Case_Insensitive", "a.secain"],
 		"body": "Ada.Strings.Equal_Case_Insensitive",
 		"description": "function"
 	},
 	"a.strfix": {
-		"prefix": "Ada.Strings.Fixed",
+		"prefix": ["Ada.Strings.Fixed", "a.strfix"],
 		"body": "Ada.Strings.Fixed",
 		"description": "package"
 	},
 	"a.sfecin": {
-		"prefix": "Ada.Strings.Fixed.Equal_Case_Insensitive",
+		"prefix": ["Ada.Strings.Fixed.Equal_Case_Insensitive", "a.sfecin"],
 		"body": "Ada.Strings.Fixed.Equal_Case_Insensitive",
 		"description": "function"
 	},
 	"a.stfiha": {
-		"prefix": "Ada.Strings.Fixed.Hash",
+		"prefix": ["Ada.Strings.Fixed.Hash", "a.stfiha"],
 		"body": "Ada.Strings.Fixed.Hash",
 		"description": "function"
 	},
 	"a.sfhcin": {
-		"prefix": "Ada.Strings.Fixed.Hash_Case_Insensitive",
+		"prefix": ["Ada.Strings.Fixed.Hash_Case_Insensitive", "a.sfhcin"],
 		"body": "Ada.Strings.Fixed.Hash_Case_Insensitive",
 		"description": "function"
 	},
 	"a.sflcin": {
-		"prefix": "Ada.Strings.Fixed.Less_Case_Insensitive",
+		"prefix": ["Ada.Strings.Fixed.Less_Case_Insensitive", "a.sflcin"],
 		"body": "Ada.Strings.Fixed.Less_Case_Insensitive",
 		"description": "function"
 	},
 	"a.strhas": {
-		"prefix": "Ada.Strings.Hash",
+		"prefix": ["Ada.Strings.Hash", "a.strhas"],
 		"body": "Ada.Strings.Hash",
 		"description": "function"
 	},
 	"a.shcain": {
-		"prefix": "Ada.Strings.Hash_Case_Insensitive",
+		"prefix": ["Ada.Strings.Hash_Case_Insensitive", "a.shcain"],
 		"body": "Ada.Strings.Hash_Case_Insensitive",
 		"description": "function"
 	},
 	"a.slcain": {
-		"prefix": "Ada.Strings.Less_Case_Insensitive",
+		"prefix": ["Ada.Strings.Less_Case_Insensitive", "a.slcain"],
 		"body": "Ada.Strings.Less_Case_Insensitive",
 		"description": "function"
 	},
 	"a.strmap": {
-		"prefix": "Ada.Strings.Maps",
+		"prefix": ["Ada.Strings.Maps", "a.strmap"],
 		"body": "Ada.Strings.Maps",
 		"description": "package"
 	},
 	"a.stmaco": {
-		"prefix": "Ada.Strings.Maps.Constants",
+		"prefix": ["Ada.Strings.Maps.Constants", "a.stmaco"],
 		"body": "Ada.Strings.Maps.Constants",
 		"description": "package"
 	},
 	"a.strunb": {
-		"prefix": "Ada.Strings.Unbounded",
+		"prefix": ["Ada.Strings.Unbounded", "a.strunb"],
 		"body": "Ada.Strings.Unbounded",
 		"description": "package"
 	},
 	"a.suecin": {
-		"prefix": "Ada.Strings.Unbounded.Equal_Case_Insensitive",
+		"prefix": ["Ada.Strings.Unbounded.Equal_Case_Insensitive", "a.suecin"],
 		"body": "Ada.Strings.Unbounded.Equal_Case_Insensitive",
 		"description": "function"
 	},
 	"a.sufiha": {
-		"prefix": "Ada.Strings.Unbounded.Hash",
+		"prefix": ["Ada.Strings.Unbounded.Hash", "a.sufiha"],
 		"body": "Ada.Strings.Unbounded.Hash",
 		"description": "function"
 	},
 	"a.suhcin": {
-		"prefix": "Ada.Strings.Unbounded.Hash_Case_Insensitive",
+		"prefix": ["Ada.Strings.Unbounded.Hash_Case_Insensitive", "a.suhcin"],
 		"body": "Ada.Strings.Unbounded.Hash_Case_Insensitive",
 		"description": "function"
 	},
 	"a.sulcin": {
-		"prefix": "Ada.Strings.Unbounded.Less_Case_Insensitive",
+		"prefix": ["Ada.Strings.Unbounded.Less_Case_Insensitive", "a.sulcin"],
 		"body": "Ada.Strings.Unbounded.Less_Case_Insensitive",
 		"description": "function"
 	},
 	"a.stuten": {
-		"prefix": "Ada.Strings.UTF_Encoding",
+		"prefix": ["Ada.Strings.UTF_Encoding", "a.stuten"],
 		"body": "Ada.Strings.UTF_Encoding",
 		"description": "package"
 	},
 	"a.suenco": {
-		"prefix": "Ada.Strings.UTF_Encoding.Conversions",
+		"prefix": ["Ada.Strings.UTF_Encoding.Conversions", "a.suenco"],
 		"body": "Ada.Strings.UTF_Encoding.Conversions",
 		"description": "package"
 	},
 	"a.suenst": {
-		"prefix": "Ada.Strings.UTF_Encoding.Strings",
+		"prefix": ["Ada.Strings.UTF_Encoding.Strings", "a.suenst"],
 		"body": "Ada.Strings.UTF_Encoding.Strings",
 		"description": "package"
 	},
 	"a.synbar": {
-		"prefix": "Ada.Synchronous_Barriers",
+		"prefix": ["Ada.Synchronous_Barriers", "a.synbar"],
 		"body": "Ada.Synchronous_Barriers",
 		"description": "package"
 	},
 	"a.sytaco": {
-		"prefix": "Ada.Synchronous_Task_Control",
+		"prefix": ["Ada.Synchronous_Task_Control", "a.sytaco"],
 		"body": "Ada.Synchronous_Task_Control",
 		"description": "package"
 	},
 	"a.stcoed": {
-		"prefix": "Ada.Synchronous_Task_Control.EDF",
+		"prefix": ["Ada.Synchronous_Task_Control.EDF", "a.stcoed"],
 		"body": "Ada.Synchronous_Task_Control.EDF",
 		"description": "package"
 	},
 	"a.tags": {
-		"prefix": "Ada.Tags",
+		"prefix": ["Ada.Tags", "a.tags"],
 		"body": "Ada.Tags",
 		"description": "package"
 	},
 	"a.tgdico": {
-		"prefix": "Ada.Tags.Generic_Dispatching_Constructor",
+		"prefix": ["Ada.Tags.Generic_Dispatching_Constructor", "a.tgdico"],
 		"body": "Ada.Tags.Generic_Dispatching_Constructor",
 		"description": "generic function"
 	},
 	"a.tasatt": {
-		"prefix": "Ada.Task_Attributes",
+		"prefix": ["Ada.Task_Attributes", "a.tasatt"],
 		"body": "Ada.Task_Attributes",
 		"description": "generic package"
 	},
 	"a.taside": {
-		"prefix": "Ada.Task_Identification",
+		"prefix": ["Ada.Task_Identification", "a.taside"],
 		"body": "Ada.Task_Identification",
 		"description": "package"
 	},
 	"a.taster": {
-		"prefix": "Ada.Task_Termination",
+		"prefix": ["Ada.Task_Termination", "a.taster"],
 		"body": "Ada.Task_Termination",
 		"description": "package"
 	},
 	"a.textio": {
-		"prefix": "Ada.Text_IO",
+		"prefix": ["Ada.Text_IO", "a.textio"],
 		"body": "Ada.Text_IO",
 		"description": "package"
 	},
@@ -690,17 +693,17 @@
 		"description": "generic package\nin Text_IO"
 	},
 	"a.tiboio": {
-		"prefix": "Ada.Text_IO.Bounded_IO",
+		"prefix": ["Ada.Text_IO.Bounded_IO", "a.tiboio"],
 		"body": "Ada.Text_IO.Bounded_IO",
 		"description": "generic package"
 	},
 	"a.ticoio": {
-		"prefix": "Ada.Text_IO.Complex_IO",
+		"prefix": ["Ada.Text_IO.Complex_IO", "a.ticoio"],
 		"body": "Ada.Text_IO.Complex_IO",
 		"description": "generic package"
 	},
 	"a.teioed": {
-		"prefix": "Ada.Text_IO.Editing",
+		"prefix": ["Ada.Text_IO.Editing", "a.teioed"],
 		"body": "Ada.Text_IO.Editing",
 		"description": "package"
 	},
@@ -710,27 +713,27 @@
 		"description": "generic package\nin Editing"
 	},
 	"a.titest": {
-		"prefix": "Ada.Text_IO.Text_Streams",
+		"prefix": ["Ada.Text_IO.Text_Streams", "a.titest"],
 		"body": "Ada.Text_IO.Text_Streams",
 		"description": "package"
 	},
 	"a.tiunio": {
-		"prefix": "Ada.Text_IO.Unbounded_IO",
+		"prefix": ["Ada.Text_IO.Unbounded_IO", "a.tiunio"],
 		"body": "Ada.Text_IO.Unbounded_IO",
 		"description": "package"
 	},
 	"a.unccon": {
-		"prefix": "Ada.Unchecked_Conversion",
+		"prefix": ["Ada.Unchecked_Conversion", "a.unccon"],
 		"body": "Ada.Unchecked_Conversion",
 		"description": "generic function"
 	},
 	"a.undesu": {
-		"prefix": "Ada.Unchecked_Deallocate_Subpool",
+		"prefix": ["Ada.Unchecked_Deallocate_Subpool", "a.undesu"],
 		"body": "Ada.Unchecked_Deallocate_Subpool",
 		"description": "procedure"
 	},
 	"a.uncdea": {
-		"prefix": "Ada.Unchecked_Deallocation",
+		"prefix": ["Ada.Unchecked_Deallocation", "a.uncdea"],
 		"body": "Ada.Unchecked_Deallocation",
 		"description": "generic procedure"
 	},
@@ -740,22 +743,22 @@
 		"description": "package"
 	},
 	"i.c": {
-		"prefix": "Interfaces.C",
+		"prefix": ["Interfaces.C", "i.c"],
 		"body": "Interfaces.C",
 		"description": "package"
 	},
 	"i.cpoint": {
-		"prefix": "Interfaces.C.Pointers",
+		"prefix": ["Interfaces.C.Pointers", "i.cpoint"],
 		"body": "Interfaces.C.Pointers",
 		"description": "generic package"
 	},
 	"i.cstrin": {
-		"prefix": "Interfaces.C.Strings",
+		"prefix": ["Interfaces.C.Strings", "i.cstrin"],
 		"body": "Interfaces.C.Strings",
 		"description": "package"
 	},
 	"i.cobol": {
-		"prefix": "Interfaces.COBOL",
+		"prefix": ["Interfaces.COBOL", "i.cobol"],
 		"body": "Interfaces.COBOL",
 		"description": "package"
 	},
@@ -765,7 +768,7 @@
 		"description": "generic package\nin COBOL"
 	},
 	"i.fortra": {
-		"prefix": "Interfaces.Fortran",
+		"prefix": ["Interfaces.Fortran", "i.fortra"],
 		"body": "Interfaces.Fortran",
 		"description": "package"
 	},
@@ -780,42 +783,42 @@
 		"description": "package"
 	},
 	"s.atacco": {
-		"prefix": "System.Address_To_Access_Conversions",
+		"prefix": ["System.Address_To_Access_Conversions", "s.atacco"],
 		"body": "System.Address_To_Access_Conversions",
 		"description": "generic package"
 	},
 	"s.maccod": {
-		"prefix": "System.Machine_Code",
+		"prefix": ["System.Machine_Code", "s.maccod"],
 		"body": "System.Machine_Code",
 		"description": "package"
 	},
 	"s.multip": {
-		"prefix": "System.Multiprocessors",
+		"prefix": ["System.Multiprocessors", "s.multip"],
 		"body": "System.Multiprocessors",
 		"description": "package"
 	},
 	"s.mudido": {
-		"prefix": "System.Multiprocessors.Dispatching_Domains",
+		"prefix": ["System.Multiprocessors.Dispatching_Domains", "s.mudido"],
 		"body": "System.Multiprocessors.Dispatching_Domains",
 		"description": "package"
 	},
 	"s.rpc": {
-		"prefix": "System.RPC",
+		"prefix": ["System.RPC", "s.rpc"],
 		"body": "System.RPC",
 		"description": "package"
 	},
 	"s.stoele": {
-		"prefix": "System.Storage_Elements",
+		"prefix": ["System.Storage_Elements", "s.stoele"],
 		"body": "System.Storage_Elements",
 		"description": "package"
 	},
 	"s.stopoo": {
-		"prefix": "System.Storage_Pools",
+		"prefix": ["System.Storage_Pools", "s.stopoo"],
 		"body": "System.Storage_Pools",
 		"description": "package"
 	},
 	"s.stposu": {
-		"prefix": "System.Storage_Pools.Subpools",
+		"prefix": ["System.Storage_Pools.Subpools", "s.stposu"],
 		"body": "System.Storage_Pools.Subpools",
 		"description": "package"
 	}
