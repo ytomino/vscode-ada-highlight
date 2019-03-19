@@ -1,0 +1,537 @@
+{
+	"'Access": {
+		"prefix": "'Access",
+		"body": "'Access",
+		"description": "function X'Access return \"general access type\"\n-- X denotes an aliased view of an object.\nfunction P'Access return \"access-to-subprogram type\"\n-- P denotes a subprogram."
+	},
+	"'Address": {
+		"prefix": "'Address",
+		"body": "'Address",
+		"description": "X'Address : System.Address\n-- X denotes an object, program unit, or label."
+	},
+	"'Adjacent": {
+		"prefix": "'Adjacent",
+		"body": "'Adjacent",
+		"description": "function S'Adjacent (X, Towards : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Aft": {
+		"prefix": "'Aft",
+		"body": "'Aft",
+		"description": "function S'Aft return \"universal_integer\"\n-- For every fixed point subtype S."
+	},
+	"'Alignment": {
+		"prefix": "'Alignment",
+		"body": "'Alignment",
+		"description": "X'Alignment : \"universal_integer\"\n-- X denotes an object.\nS'Alignment : \"universal_integer\"\n-- For every subtype S."
+	},
+	"'Base": {
+		"prefix": "'Base",
+		"body": "'Base",
+		"description": "subtype S'Base is \"unconstrained subtype\"\n-- For every scalar subtype S."
+	},
+	"'Bit_Order": {
+		"prefix": "'Bit_Order",
+		"body": "'Bit_Order",
+		"description": "S'Bit_Order : System.Bit_Order\n-- For every specific record subtype S."
+	},
+	"'Body_Version": {
+		"prefix": "'Body_Version",
+		"body": "'Body_Version",
+		"description": "function P'Body_Version return String\n-- P statically denotes a program unit."
+	},
+	"'Callable": {
+		"prefix": "'Callable",
+		"body": "'Callable",
+		"description": "function T'Callable return Boolean\n-- T is of a task type (after any implicit dereference)."
+	},
+	"'Caller": {
+		"prefix": "'Caller",
+		"body": "'Caller",
+		"description": "function E'Caller return Ada.Task_Identification.Task_Id\n-- E denotes an entry_declaration."
+	},
+	"'Ceiling": {
+		"prefix": "'Ceiling",
+		"body": "'Ceiling",
+		"description": "function S'Ceiling (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Class": {
+		"prefix": "'Class",
+		"body": "'Class",
+		"description": "subtype S'Class is \"class-wide type\"\n-- For every subtype S of a tagged type T (specific or class-wide), or an untagged private type whose full view is tagged."
+	},
+	"'Component_Size": {
+		"prefix": "'Component_Size",
+		"body": "'Component_Size",
+		"description": "X'Component_Size : \"universal_integer\"\n-- X denotes an array subtype or array object (after any implicit dereference)."
+	},
+	"'Compose": {
+		"prefix": "'Compose",
+		"body": "'Compose",
+		"description": "function S'Compose (Fraction : T; Exponent : \"universal_integer\") return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Constrained": {
+		"prefix": "'Constrained",
+		"body": "'Constrained",
+		"description": "function A'Constrained return Boolean\n-- A is of a discriminated type (after any implicit dereference)."
+	},
+	"'Copy_Sign": {
+		"prefix": "'Copy_Sign",
+		"body": "'Copy_Sign",
+		"description": "function S'Copy_Sign (Value, Sign : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Count": {
+		"prefix": "'Count",
+		"body": "'Count",
+		"description": "function E'Count return \"universal_integer\"\n-- E denotes an entry of a task or protected unit."
+	},
+	"'Definite": {
+		"prefix": "'Definite",
+		"body": "'Definite",
+		"description": "function S'Definite return Boolean\n-- S denotes a formal indefinite subtype."
+	},
+	"'Delta": {
+		"prefix": "'Delta",
+		"body": "'Delta",
+		"description": "function S'Delta return \"universal_integer\"\n-- For every fixed point subtype S."
+	},
+	"'Denorm": {
+		"prefix": "'Denorm",
+		"body": "'Denorm",
+		"description": "function S'Denorm return Boolean\n-- For every subtype S of a floating point type T."
+	},
+	"'Digits": {
+		"prefix": "'Digits",
+		"body": "'Digits",
+		"description": "function S'Digits return \"universal_integer\"\n-- For every floating point subtype S."
+	},
+	"'Enum_Rep": {
+		"prefix": "'Enum_Rep",
+		"body": "'Enum_Rep",
+		"description": "function S'Enum_Rep (Arg : S'Base) return \"universal_integer\"\n-- For every discrete subtype S."
+	},
+	"'Enum_Val": {
+		"prefix": "'Enum_Val",
+		"body": "'Enum_Val",
+		"description": "function S'Enum_Val (Arg : \"universal_integer\") return S'Base\n-- For every discrete subtype S."
+	},
+	"'Exponent": {
+		"prefix": "'Exponent",
+		"body": "'Exponent",
+		"description": "function S'Exponent (X : T) return \"universal_integer\"\n-- For every subtype S of a floating point type T."
+	},
+	"'External_Tag": {
+		"prefix": "'External_Tag",
+		"body": "'External_Tag",
+		"description": "S'External_Tag : String\n-- For every subtype S of a tagged type T (specific or class-wide)."
+	},
+	"'First": {
+		"prefix": "'First",
+		"body": "'First",
+		"description": "function S'First return S\n-- For every scalar subtype S.\nfunction A'First (N : \"universal_integer\" := 1) return \"array index subtype\"\n-- A is of an array type (after any implicit dereference), or denotes a constrained array subtype."
+	},
+	"'First_Bit": {
+		"prefix": "'First_Bit",
+		"body": "'First_Bit",
+		"description": "function R.C'First_Bit return \"universal_integer\"\n-- For a component C of a composite, non-array object R."
+	},
+	"'First_Valid": {
+		"prefix": "'First_Valid",
+		"body": "'First_Valid",
+		"description": "function S'First_Valid return S\n-- For every static discrete subtype S for which there exists at least one value belonging to S that satisfies the predicates of S."
+	},
+	"'Floor": {
+		"prefix": "'Floor",
+		"body": "'Floor",
+		"description": "function S'Floor (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Fore": {
+		"prefix": "'Fore",
+		"body": "'Fore",
+		"description": "function S'Fore return \"universal_integer\"\n-- For every fixed point subtype S."
+	},
+	"'Fraction": {
+		"prefix": "'Fraction",
+		"body": "'Fraction",
+		"description": "function S'Fraction (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Global": {
+		"prefix": "'Global",
+		"body": "'Global",
+		"description": "For a prefix S that statically denotes a subprogram, formal object of an anonymous access-to-subprogram type, or a type.\nIdentifies the global variable set for each of the three global_modes, for the given subprogram, object, or type; a reference to this attribute may only appear within a global_aspect_definition."
+	},
+	"'Has_Same_Storage": {
+		"prefix": "'Has_Same_Storage",
+		"body": "'Has_Same_Storage",
+		"description": "function X'Has_Same_Storage (Arg : \"any_type\") return Boolean\n-- X denotes an object."
+	},
+	"'Identity": {
+		"prefix": "'Identity",
+		"body": "'Identity",
+		"description": "function E'Identity return Ada.Exceptions.Exception_Id\n-- E denotes an exception.\nfunction T'Identity return Ada.Task_Identification.Task_Id\n-- T is of a task type (after any implicit dereference)."
+	},
+	"'Image": {
+		"prefix": "'Image",
+		"body": "'Image",
+		"description": "function S'Image (Arg : S'Base) return String\n-- For every subtype S of a type T.\nfunction X'Image return String\n-- X is of a type T other than universal_real or universal_fixed."
+	},
+	"'Index": {
+		"prefix": "'Index",
+		"body": "'Index",
+		"description": "function E'Index return \"entry index subtype\"\n-- E denotes an entry declaration of an entry family."
+	},
+	"'Class'Input": {
+		"prefix": "'Class'Input",
+		"body": "'Class'Input",
+		"description": "function S'Class'Input (Stream : not null access Ada.Streams.Root_Stream_Type'Class) return T'Class\n-- For every subtype S'Class of a class-wide type T'Class."
+	},
+	"'Input": {
+		"prefix": "'Input",
+		"body": "'Input",
+		"description": "function S'Input (Stream : not null access Ada.Streams.Root_Stream_Type'Class) return T\n-- For every subtype S of a specific type T."
+	},
+	"'Last": {
+		"prefix": "'Last",
+		"body": "'Last",
+		"description": "function S'Last return S\n-- For every scalar subtype S.\nfunction A'Last (N : \"universal_integer\" := 1) return \"array index subtype\"\n-- A is of an array type (after any implicit dereference), or denotes a constrained array subtype."
+	},
+	"'Last_Bit": {
+		"prefix": "'Last_Bit",
+		"body": "'Last_Bit",
+		"description": "function R.C'Last_Bit return \"universal_integer\"\n-- For a component C of a composite, non-array object R."
+	},
+	"'Last_Valid": {
+		"prefix": "'Last_Valid",
+		"body": "'Last_Valid",
+		"description": "function S'Last_Valid return S\n-- For every static discrete subtype S for which there exists at least one value belonging to S that satisfies the predicates of S."
+	},
+	"'Leading_Part": {
+		"prefix": "'Leading_Part",
+		"body": "'Leading_Part",
+		"description": "function S'Leading_Part (X : T; Radix_Digits : universal_integer) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Length": {
+		"prefix": "'Length",
+		"body": "'Length",
+		"description": "function A'Length (N : \"universal_integer\") return \"universal_integer\".\n-- A is of an array type (after any implicit dereference), or denotes a constrained array subtype."
+	},
+	"'Machine": {
+		"prefix": "'Machine",
+		"body": "'Machine",
+		"description": "function S'Machine (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Machine_Emax": {
+		"prefix": "'Machine_Emax",
+		"body": "'Machine_Emax",
+		"description": "function S'Machine_Emax return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Machine_Emin": {
+		"prefix": "'Machine_Emin",
+		"body": "'Machine_Emin",
+		"description": "function S'Machine_Emin return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Machine_Mantissa": {
+		"prefix": "'Machine_Mantissa",
+		"body": "'Machine_Mantissa",
+		"description": "function S'Machine_Mantissa return \"universal_integer\"\n-- For every subtype S of a floating point type T."
+	},
+	"'Machine_Overflows": {
+		"prefix": "'Machine_Overflows",
+		"body": "'Machine_Overflows",
+		"description": "function S'Machine_Overflows return Boolean\n-- For every subtype S of a floating point type T.\nfunction S'Machine_Overflows return Boolean\n-- For every subtype S of a fixed point type T."
+	},
+	"'Machine_Radix": {
+		"prefix": "'Machine_Radix",
+		"body": "'Machine_Radix",
+		"description": "function S'Machine_Radix return \"universal_integer\"\n-- For every subtype S of a floating point type T.\nS'Machine_Radix : \"universal_integer\"\n-- For every subtype S of a fixed point type T."
+	},
+	"'Machine_Rounding": {
+		"prefix": "'Machine_Rounding",
+		"body": "'Machine_Rounding",
+		"description": "function S'Machine_Rounding (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Machine_Rounds": {
+		"prefix": "'Machine_Rounds",
+		"body": "'Machine_Rounds",
+		"description": "function S'Machine_Rounds return Boolean\n-- For every subtype S of a floating point type T.\nfunction S'Machine_Rounds return Boolean\n-- For every subtype S of a fixed point type T."
+	},
+	"'Max": {
+		"prefix": "'Max",
+		"body": "'Max",
+		"description": "function S'Max (Left, Right : S'Base) return S'Base\n-- For every scalar subtype S."
+	},
+	"'Max_Alignment_For_Allocation": {
+		"prefix": "'Max_Alignment_For_Allocation",
+		"body": "'Max_Alignment_For_Allocation",
+		"description": "function S'Max_Alignment_For_Allocation return \"universal_integer\"\n-- For every subtype S."
+	},
+	"'Max_Size_In_Storage_Elements": {
+		"prefix": "'Max_Size_In_Storage_Elements",
+		"body": "'Max_Size_In_Storage_Elements",
+		"description": "function S'Max_Size_In_Storage_Elements return \"universal_integer\"\n-- For every subtype S."
+	},
+	"'Min": {
+		"prefix": "'Min",
+		"body": "'Min",
+		"description": "function S'Min (Left, Right : S'Base) return S'Base\n-- For every scalar subtype S."
+	},
+	"'Mod": {
+		"prefix": "'Mod",
+		"body": "'Mod",
+		"description": "function S'Mod (Arg : \"universal_integer\") return S'Base\n-- For every modular subtype S."
+	},
+	"'Model": {
+		"prefix": "'Model",
+		"body": "'Model",
+		"description": "function S'Model (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Model_Emin": {
+		"prefix": "'Model_Emin",
+		"body": "'Model_Emin",
+		"description": "function S'Model_Emin return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Model_Epsilon": {
+		"prefix": "'Model_Epsilon",
+		"body": "'Model_Epsilon",
+		"description": "function S'Model_Epsilon return \"universal_real\"\n-- For every subtype S of a floating point type T."
+	},
+	"'Model_Mantissa": {
+		"prefix": "'Model_Mantissa",
+		"body": "'Model_Mantissa",
+		"description": "function S'Model_Mantissa return \"universal_integer\"\n-- For every subtype S of a floating point type T."
+	},
+	"'Model_Small": {
+		"prefix": "'Model_Small",
+		"body": "'Model_Small",
+		"description": "function S'Model_Small return \"universal_real\"\n-- For every subtype S of a floating point type T."
+	},
+	"'Modulus": {
+		"prefix": "'Modulus",
+		"body": "'Modulus",
+		"description": "function S'Modulus return \"universal_integer\"\n-- For every modular subtype S."
+	},
+	"'Nonblocking": {
+		"prefix": "'Nonblocking",
+		"body": "'Nonblocking",
+		"description": "S'Nonblocking : Boolean\n-- S denotes a subprogram.\nS'Nonblocking : Boolean\n-- S denotes a subtype.\nP'Nonblocking\n-- P denotes a package."
+	},
+	"'Object_Size": {
+		"prefix": "'Object_Size",
+		"body": "'Object_Size",
+		"description": "S'Object_Size : \"universal_integer\"\n--  For every subtype S."
+	},
+	"'Old": {
+		"prefix": "'Old",
+		"body": "'Old",
+		"description": "X'Old : constant \"subtype\"\n-- X denotes an object of a nonlimited type."
+	},
+	"'Class'Output": {
+		"prefix": "'Class'Output",
+		"body": "'Class'Output",
+		"description": "procedure S'Class'Output (Stream : not null access Ada.Streams.Root_Stream_Type'Class; Item : T'Class)\n-- For every subtype S'Class of a class-wide type T'Class."
+	},
+	"'Output": {
+		"prefix": "'Output",
+		"body": "'Output",
+		"description": "procedure S'Output (Stream : not null access Ada.Streams.Root_Stream_Type'Class; Item : T)\n-- For every subtype S of a specific type T."
+	},
+	"'Overlaps_Storage": {
+		"prefix": "'Overlaps_Storage",
+		"body": "'Overlaps_Storage",
+		"description": "function X'Overlaps_Storage (Arg : \"any_type\") return Boolean\n-- X denotes an object."
+	},
+	"'Parallel_Reduce": {
+		"prefix": "'Parallel_Reduce",
+		"body": "'Parallel_Reduce",
+		"description": "function X'Parallel_Reduce (function Reducer (Accumulator : Accum_Type; Value : Value_Type) return Accum_Type; Initial_Value : Accum_Type; function Combiner (Accumulator, Value : Accum_Type) return Accum_Type is Reducer) return Accum_Type\n-- X is of an array type (after any implicit dereference), or denotes an iterable container object."
+	},
+	"'Partition_Id": {
+		"prefix": "'Partition_Id",
+		"body": "'Partition_Id",
+		"description": "function D'Partition_Id return \"universal_integer\"\n-- D denotes a library-level declaration, excepting a declaration of or within a declared-pure library unit."
+	},
+	"'Pos": {
+		"prefix": "'Pos",
+		"body": "'Pos",
+		"description": "function S'Pos (Arg : S'Base) return \"universal_integer\"\n-- For every discrete subtype S."
+	},
+	"'Position": {
+		"prefix": "'Position",
+		"body": "'Position",
+		"description": "function R.C'Position return \"universal_integer\"\n-- For a component C of a composite, non-array object R."
+	},
+	"'Pred": {
+		"prefix": "'Pred",
+		"body": "'Pred",
+		"description": "function S'Pred (Arg : S'Base) return S'Base\n-- For every scalar subtype S."
+	},
+	"'Priority": {
+		"prefix": "'Priority",
+		"body": "'Priority",
+		"description": "P'Priority : System.Any_Priority\n-- P denotes a protected object."
+	},
+	"'Put_Image": {
+		"prefix": "'Put_Image",
+		"body": "'Put_Image",
+		"description": "procedure S'Put_Image (Arg : T; Stream : not null access Ada.Streams.Root_Stream_Type'Class)\n-- For every subtype S of a type T other than universal_real or universal_fixed."
+	},
+	"'Range": {
+		"prefix": "'Range",
+		"body": "'Range",
+		"description": "For every scalar subtype S:\nS'Range is equivalent to the range S'First .. S'Last.\nA is of an array type (after any implicit dereference), or denotes a constrained array subtype:\nA'Range (N) is equivalent to the range A'First (N) .. A'Last (N), except that the prefix A is only evaluated once."
+	},
+	"S'Read": {
+		"prefix": "'Read",
+		"body": "'Read",
+		"description": "procedure S'Class'Read (Stream : not null access Ada.Streams.Root_Stream_Type'Class; Item : out T'Class)\n-- For every subtype S'Class of a class-wide type T'Class."
+	},
+	"'Read": {
+		"prefix": "'Read",
+		"body": "'Read",
+		"description": "procedure S'Read (Stream : not null access Ada.Streams.Root_Stream_Type'Class; Item : out T)\n-- For every subtype S of a specific type T."
+	},
+	"'Reduce": {
+		"prefix": "'Reduce",
+		"body": "'Reduce",
+		"description": "function V'Reduce (function Reducer (Accumulator : Accum_Type; Value : Value_Type) return Accum_Type; Initial_Value : Accum_Type; function Combiner (Accumulator, Value : Accum_Type) return Accum_Type is Reducer) return Accum_Type\n-- For a value_sequence V.\nfunction X'Reduce ...\n-- X is of an array type (after any implicit dereference), or denotes an iterable container object."
+	},
+	"'Relative_Deadline": {
+		"prefix": "'Relative_Deadline",
+		"body": "'Relative_Deadline",
+		"description": "P'Relative_Deadline : Ada.Real_Time.Time_Span\n-- P denotes a protected object."
+	},
+	"'Remainder": {
+		"prefix": "'Remainder",
+		"body": "'Remainder",
+		"description": "function S'Remainder (X, Y : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Result": {
+		"prefix": "'Result",
+		"body": "'Result",
+		"description": "F'Result : constant \"subtype\"\n-- F denotes a function declaration or an access-to-function type"
+	},
+	"'Round": {
+		"prefix": "'Round",
+		"body": "'Round",
+		"description": "function S'Round (X : \"universal_real\") return S'Base\n-- For every decimal fixed point subtype S."
+	},
+	"'Rounding": {
+		"prefix": "'Rounding",
+		"body": "'Rounding",
+		"description": "function S'Rounding (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Safe_First": {
+		"prefix": "'Safe_First",
+		"body": "'Safe_First",
+		"description": "function S'Safe_First return \"universal_real\"\n-- For every subtype S of a floating point type T."
+	},
+	"'Safe_Last": {
+		"prefix": "'Safe_Last",
+		"body": "'Safe_Last",
+		"description": "function S'Safe_Last return \"universal_real\"\n-- For every subtype S of a floating point type T."
+	},
+	"'Scale": {
+		"prefix": "'Scale",
+		"body": "'Scale",
+		"description": "function S'Scale return \"universal_integer\"\n-- For every decimal fixed point subtype S."
+	},
+	"'Scaling": {
+		"prefix": "'Scaling",
+		"body": "'Scaling",
+		"description": "function S'Scaling (X : T; Adjustment : \"universal_integer\") return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Signed_Zeros": {
+		"prefix": "'Signed_Zeros",
+		"body": "'Signed_Zeros",
+		"description": "function T'Signed_Zeros return Boolean\n-- For every subtype S of a floating point type T."
+	},
+	"'Size": {
+		"prefix": "'Size",
+		"body": "'Size",
+		"description": "S'Size : \"universal_integer\"\n-- For every subtype S.\nX'Size : \"universal_integer\"\n-- X denotes an object."
+	},
+	"'Small": {
+		"prefix": "'Small",
+		"body": "'Small",
+		"description": "S'Small : \"universal_real\"\n-- For every fixed point subtype S."
+	},
+	"'Storage_Pool": {
+		"prefix": "'Storage_Pool",
+		"body": "'Storage_Pool",
+		"description": "S'Storage_Pool : in out Root_Storage_Pool'Class\n-- For every access-to-object subtype S."
+	},
+	"'Storage_Size": {
+		"prefix": "'Storage_Size",
+		"body": "'Storage_Size",
+		"description": "S'Storage_Size : \"universal_integer\"\n-- For every access-to-object subtype S.\nT'Storage_Size: \"universal_integer\"\n-- T denotes a task object (after any implicit dereference)."
+	},
+	"'Stream_Size": {
+		"prefix": "'Stream_Size",
+		"body": "'Stream_Size",
+		"description": "S'Stream_Size : \"universal_integer\"\n-- For every subtype S of an elementary type T."
+	},
+	"'Succ": {
+		"prefix": "'Succ",
+		"body": "'Succ",
+		"description": "function S'Succ (Arg : S'Base) return S'Base\n-- For every scalar subtype S."
+	},
+	"'Tag": {
+		"prefix": "'Tag",
+		"body": "'Tag",
+		"description": "function S'Tag return Ada.Tags.Tag\n-- For every subtype S of a tagged type T (specific or class-wide).\nfunction X'Tag return Ada.Tags.Tag\n-- X is of a class-wide tagged type (after any implicit dereference)."
+	},
+	"'Terminated": {
+		"prefix": "'Terminated",
+		"body": "'Terminated",
+		"description": "function T'Terminated return Boolean;-- T is of a task type (after any implicit dereference)."
+	},
+	"'Truncation": {
+		"prefix": "'Truncation",
+		"body": "'Truncation",
+		"description": "function S'Truncation (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Unbiased_Rounding": {
+		"prefix": "'Unbiased_Rounding",
+		"body": "'Unbiased_Rounding",
+		"description": "function S'Unbiased_Rounding (X : T) return T\n-- For every subtype S of a floating point type T."
+	},
+	"'Unchecked_Access": {
+		"prefix": "'Unchecked_Access",
+		"body": "'Unchecked_Access",
+		"description": "function X'Unchecked_Access return \"general access type\"\n-- X denotes an aliased view of an object,"
+	},
+	"'Val": {
+		"prefix": "'Val",
+		"body": "'Val",
+		"description": "function S'Val(Arg : \"universal_integer\") return S'Base\n-- For every discrete subtype S."
+	},
+	"'Valid": {
+		"prefix": "'Valid",
+		"body": "'Valid",
+		"description": "function X'Valid return Boolean\n-- X denotes a scalar object (after any implicit dereference)."
+	},
+	"'Value": {
+		"prefix": "'Value",
+		"body": "'Value",
+		"description": "function S'Value (Arg : String) return S'Base\n-- For every scalar subtype S."
+	},
+	"'Version": {
+		"prefix": "'Version",
+		"body": "'Version",
+		"description": "function P'Version return String\n-- P statically denotes a program unit."
+	},
+	"'Width": {
+		"prefix": "'Width",
+		"body": "'Width",
+		"description": "function S'Width return \"universal_integer\"\n-- For every scalar subtype S."
+	},
+	"'Class'Write": {
+		"prefix": "'Class'Write",
+		"body": "'Class'Write",
+		"description": "procedure S'Class'Write (Stream : not null access Ada.Streams.Root_Stream_Type'Class; Item : T'Class)\n-- For every subtype S'Class of a class-wide type T'Class."
+	},
+	"'Write": {
+		"prefix": "'Write",
+		"body": "'Write",
+		"description": "procedure S'Write (Stream : not null access Ada.Streams.Root_Stream_Type'Class; Item : T)\n-- For every subtype S of a specific type T."
+	}
+}
