@@ -309,6 +309,11 @@
 		"body": "'Modulus",
 		"description": "function S'Modulus return \"universal_integer\"\n-- For every modular subtype S."
 	},
+	"'Move": {
+		"prefix": "'Move",
+		"body": "'Move",
+		"description": "function X'Move return \"subtype\"\n-- For a prefix X that denotes a variable that is an internal access object."
+	},
 	"'Nonblocking": {
 		"prefix": "'Nonblocking",
 		"body": "'Nonblocking",
