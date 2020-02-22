@@ -347,7 +347,7 @@
 	"'Parallel_Reduce": {
 		"prefix": "'Parallel_Reduce",
 		"body": "'Parallel_Reduce",
-		"description": "function X'Parallel_Reduce (function Reducer (Accumulator : Accum_Type; Value : Value_Type) return Accum_Type; Initial_Value : Accum_Type; function Combiner (Accumulator, Value : Accum_Type) return Accum_Type is Reducer) return Accum_Type\n-- X is of an array type (after any implicit dereference), or denotes an iterable container object."
+		"description": "function X'Parallel_Reduce (function Reducer (Accumulator : Accum_Type; Value : Value_Type) return Accum_Type; Initial_Value : Accum_Type) return Accum_Type\n-- X is of an array type (after any implicit dereference), or denotes an iterable container object."
 	},
 	"'Partition_Id": {
 		"prefix": "'Partition_Id",
@@ -397,7 +397,7 @@
 	"'Reduce": {
 		"prefix": "'Reduce",
 		"body": "'Reduce",
-		"description": "function V'Reduce (function Reducer (Accumulator : Accum_Type; Value : Value_Type) return Accum_Type; Initial_Value : Accum_Type; function Combiner (Accumulator, Value : Accum_Type) return Accum_Type is Reducer) return Accum_Type\n-- For a value_sequence V.\nfunction X'Reduce ...\n-- X is of an array type (after any implicit dereference), or denotes an iterable container object."
+		"description": "function V'Reduce (function Reducer (Accumulator : Accum_Type; Value : Value_Type) return Accum_Type; Initial_Value : Accum_Type) return Accum_Type\n-- For a value_sequence V.\nfunction X'Reduce ...\n-- X is of an array type (after any implicit dereference), or denotes an iterable container object."
 	},
 	"'Relative_Deadline": {
 		"prefix": "'Relative_Deadline",
