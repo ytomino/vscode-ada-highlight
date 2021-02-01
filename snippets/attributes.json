@@ -364,6 +364,11 @@
 		"body": "'Pred",
 		"description": "function S'Pred (Arg : S'Base) return S'Base\n-- For every scalar subtype S."
 	},
+	"'Preelaborable_Initialization": {
+		"prefix": "'Preelaborable_Initialization",
+		"body": "'Preelaborable_Initialization",
+		"description": "S'Preelaborable_Initialization : Boolean\n--  For a nonformal composite subtype S declared within the visible part of a package or a generic package, or a generic formal private subtype or formal derived subtype."
+	},
 	"'Priority": {
 		"prefix": "'Priority",
 		"body": "'Priority",
