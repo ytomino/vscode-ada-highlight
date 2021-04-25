@@ -430,10 +430,7 @@
 		"description": "generic package"
 	},
 	"a.ngcefu": {
-		"prefix": [
-			"Ada.Numerics.Generic_Complex_Elementary_Functions",
-			"a.ngcefu"
-		],
+		"prefix": ["Ada.Numerics.Generic_Complex_Elementary_Functions", "a.ngcefu"],
 		"body": "Ada.Numerics.Generic_Complex_Elementary_Functions",
 		"description": "generic package"
 	},
