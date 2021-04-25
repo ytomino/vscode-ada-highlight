@@ -1,0 +1,282 @@
+{
+	"pragma Admission_Policy": {
+		"prefix": "pragma Admission_Policy",
+		"body": "pragma Admission_Policy",
+		"description": "pragma Admission_Policy (policy_identifier);"
+	},
+	"pragma All_Calls_Remote": {
+		"prefix": "pragma All_Calls_Remote",
+		"body": "pragma All_Calls_Remote",
+		"description": "pragma All_Calls_Remote (library_unit_name);"
+	},
+	"pragma Assert": {
+		"prefix": "pragma Assert",
+		"body": "pragma Assert",
+		"description": "pragma Assert ([Check =>] boolean_expression[, [Message =>] string_expression]);"
+	},
+	"pragma Assertion_Policy": {
+		"prefix": "pragma Assertion_Policy",
+		"body": "pragma Assertion_Policy",
+		"description": "pragma Assertion_Policy (policy_identifier);\npragma Assertion_Policy (assertion_aspect_mark => policy_identifier{, assertion_aspect_mark => policy_identifier});"
+	},
+	"pragma Asynchronous": {
+		"prefix": "pragma Asynchronous",
+		"body": "pragma Asynchronous",
+		"description": "pragma Asynchronous (local_name);"
+	},
+	"pragma Atomic": {
+		"prefix": "pragma Atomic",
+		"body": "pragma Atomic",
+		"description": "pragma Atomic (local_name);"
+	},
+	"pragma Atomic_Components": {
+		"prefix": "pragma Atomic_Components",
+		"body": "pragma Atomic_Components",
+		"description": "pragma Atomic_Components (array_local_name);"
+	},
+	"pragma Attach_Handler": {
+		"prefix": "pragma Attach_Handler",
+		"body": "pragma Attach_Handler",
+		"description": "pragma Attach_Handler (handler_name, expression);"
+	},
+	"pragma Conflict_Check_Policy": {
+		"prefix": "pragma Conflict_Check_Policy",
+		"body": "pragma Conflict_Check_Policy",
+		"description": "pragma Conflict_Check_Policy (policy_identifier[, policy_identifier]);"
+	},
+	"pragma Convention": {
+		"prefix": "pragma Convention",
+		"body": "pragma Convention",
+		"description": "pragma Convention ([Convention =>] convention_identifier, [Entity =>] local_name);"
+	},
+	"pragma CPU": {
+		"prefix": "pragma CPU",
+		"body": "pragma CPU",
+		"description": "pragma CPU (expression);"
+	},
+	"pragma Default_Storage_Pool": {
+		"prefix": "pragma Default_Storage_Pool",
+		"body": "pragma Default_Storage_Pool",
+		"description": "pragma Default_Storage_Pool (storage_pool_indicator);"
+	},
+	"pragma Detect_Blocking": {
+		"prefix": "pragma Detect_Blocking",
+		"body": "pragma Detect_Blocking",
+		"description": "pragma Detect_Blocking;"
+	},
+	"pragma Discard_Names": {
+		"prefix": "pragma Discard_Names",
+		"body": "pragma Discard_Names",
+		"description": "pragma Discard_Names [([On => ] local_name)];"
+	},
+	"pragma Dispatching_Domain": {
+		"prefix": "pragma Dispatching_Domain",
+		"body": "pragma Dispatching_Domain",
+		"description": "pragma Dispatching_Domain (expression);"
+	},
+	"pragma Elaborate": {
+		"prefix": "pragma Elaborate",
+		"body": "pragma Elaborate",
+		"description": "pragma Elaborate (library_unit_name{, library_unit_name});"
+	},
+	"pragma Elaborate_All": {
+		"prefix": "pragma Elaborate_All",
+		"body": "pragma Elaborate_All",
+		"description": "pragma Elaborate_All (library_unit_name{, library_unit_name});"
+	},
+	"pragma Elaborate_Body": {
+		"prefix": "pragma Elaborate_Body",
+		"body": "pragma Elaborate_Body",
+		"description": "pragma Elaborate_Body (library_unit_name);"
+	},
+	"pragma Export": {
+		"prefix": "pragma Export",
+		"body": "pragma Export",
+		"description": "pragma Export ([Convention =>] convention_identifier, [Entity =>] local_name[, [External_Name =>] external_name_string_expression][, [Link_Name =>] link_name_string_expression]);"
+	},
+	"pragma Generate_Deadlines": {
+		"prefix": "pragma Generate_Deadlines",
+		"body": "pragma Generate_Deadlines",
+		"description": "pragma Generate_Deadlines;"
+	},
+	"pragma Import": {
+		"prefix": "pragma Import",
+		"body": "pragma Import",
+		"description": "pragma Import ([Convention =>] convention_identifier, [Entity =>] local_name[, [External_Name =>] external_name_string_expression][, [Link_Name =>] link_name_string_expression]);"
+	},
+	"pragma Independent": {
+		"prefix": "pragma Independent",
+		"body": "pragma Independent",
+		"description": "pragma Independent (component_local_name);"
+	},
+	"pragma Independent_Components": {
+		"prefix": "pragma Independent_Components",
+		"body": "pragma Independent_Components",
+		"description": "pragma Independent_Components (local_name);"
+	},
+	"pragma Inline": {
+		"prefix": "pragma Inline",
+		"body": "pragma Inline",
+		"description": "pragma Inline (name{, name});"
+	},
+	"pragma Inspection_Point": {
+		"prefix": "pragma Inspection_Point",
+		"body": "pragma Inspection_Point",
+		"description": "pragma Inspection_Point [(object_name {, object_name})];"
+	},
+	"pragma Interrupt_Handler": {
+		"prefix": "pragma Interrupt_Handler",
+		"body": "pragma Interrupt_Handler",
+		"description": "pragma Interrupt_Handler (handler_name);"
+	},
+	"pragma Interrupt_Priority": {
+		"prefix": "pragma Interrupt_Priority",
+		"body": "pragma Interrupt_Priority",
+		"description": "pragma Interrupt_Priority [(expression)];"
+	},
+	"pragma Linker_Options": {
+		"prefix": "pragma Linker_Options",
+		"body": "pragma Linker_Options",
+		"description": "pragma Linker_Options (string_expression);"
+	},
+	"pragma List": {
+		"prefix": "pragma List",
+		"body": "pragma List",
+		"description": "pragma List (identifier);"
+	},
+	"pragma Locking_Policy": {
+		"prefix": "pragma Locking_Policy",
+		"body": "pragma Locking_Policy",
+		"description": "pragma Locking_Policy (policy_identifier);"
+	},
+	"pragma No_Return": {
+		"prefix": "pragma No_Return",
+		"body": "pragma No_Return",
+		"description": "pragma No_Return (subprogram_local_name{, subprogram_local_name});"
+	},
+	"pragma Normalize_Scalars": {
+		"prefix": "pragma Normalize_Scalars",
+		"body": "pragma Normalize_Scalars",
+		"description": "pragma Normalize_Scalars;"
+	},
+	"pragma Optimize": {
+		"prefix": "pragma Optimize",
+		"body": "pragma Optimize",
+		"description": "pragma Optimize (identifier);"
+	},
+	"pragma Pack": {
+		"prefix": "pragma Pack",
+		"body": "pragma Pack",
+		"description": "pragma Pack (first_subtype_local_name);"
+	},
+	"pragma Page": {
+		"prefix": "pragma Page",
+		"body": "pragma Page",
+		"description": "pragma Page;"
+	},
+	"pragma Partition_Elaboration_Policy": {
+		"prefix": "pragma Partition_Elaboration_Policy",
+		"body": "pragma Partition_Elaboration_Policy",
+		"description": "pragma Partition_Elaboration_Policy (policy_identifier);"
+	},
+	"pragma Preelaborable_Initialization": {
+		"prefix": "pragma Preelaborable_Initialization",
+		"body": "pragma Preelaborable_Initialization",
+		"description": "pragma Preelaborable_Initialization (direct_name);"
+	},
+	"pragma Preelaborate": {
+		"prefix": "pragma Preelaborate",
+		"body": "pragma Preelaborate",
+		"description": "pragma Preelaborate (library_unit_name);"
+	},
+	"pragma Priority": {
+		"prefix": "pragma Priority",
+		"body": "pragma Priority",
+		"description": "pragma Priority (expression);"
+	},
+	"pragma Priority_Specific_Dispatching": {
+		"prefix": "pragma Priority_Specific_Dispatching",
+		"body": "pragma Priority_Specific_Dispatching",
+		"description": "pragma Priority_Specific_Dispatching (policy_identifier, first_priority_expression, last_priority_expression);"
+	},
+	"pragma Profile": {
+		"prefix": "pragma Profile",
+		"body": "pragma Profile",
+		"description": "pragma Profile (profile_identifier {, profile_pragma_argument_association});"
+	},
+	"pragma Pure": {
+		"prefix": "pragma Pure",
+		"body": "pragma Pure",
+		"description": "pragma Pure (library_unit_name);"
+	},
+	"pragma Queuing_Policy": {
+		"prefix": "pragma Queuing_Policy",
+		"body": "pragma Queuing_Policy",
+		"description": "pragma Queuing_Policy (policy_identifier);"
+	},
+	"pragma Relative_Deadline": {
+		"prefix": "pragma Relative_Deadline",
+		"body": "pragma Relative_Deadline",
+		"description": "pragma Relative_Deadline (relative_deadline_expression);"
+	},
+	"pragma Remote_Call_Interface": {
+		"prefix": "pragma Remote_Call_Interface",
+		"body": "pragma Remote_Call_Interface",
+		"description": "pragma Remote_Call_Interface (library_unit_name);"
+	},
+	"pragma Remote_Types": {
+		"prefix": "pragma Remote_Types",
+		"body": "pragma Remote_Types",
+		"description": "pragma Remote_Types (library_unit_name);"
+	},
+	"pragma Restrictions": {
+		"prefix": "pragma Restrictions",
+		"body": "pragma Restrictions",
+		"description": "pragma Restrictions (restriction{, restriction});"
+	},
+	"pragma Reviewable": {
+		"prefix": "pragma Reviewable",
+		"body": "pragma Reviewable",
+		"description": "pragma Reviewable;"
+	},
+	"pragma Shared_Passive": {
+		"prefix": "pragma Shared_Passive",
+		"body": "pragma Shared_Passive",
+		"description": "pragma Shared_Passive (library_unit_name);"
+	},
+	"pragma Storage_Size": {
+		"prefix": "pragma Storage_Size",
+		"body": "pragma Storage_Size",
+		"description": "pragma Storage_Size (expression);"
+	},
+	"pragma Suppress": {
+		"prefix": "pragma Suppress",
+		"body": "pragma Suppress",
+		"description": "pragma Suppress (identifier);"
+	},
+	"pragma Task_Dispatching_Policy": {
+		"prefix": "pragma Task_Dispatching_Policy",
+		"body": "pragma Task_Dispatching_Policy",
+		"description": "pragma Task_Dispatching_Policy (policy_identifier);"
+	},
+	"pragma Unchecked_Union": {
+		"prefix": "pragma Unchecked_Union",
+		"body": "pragma Unchecked_Union",
+		"description": "pragma Unchecked_Union (first_subtype_local_name);"
+	},
+	"pragma Unsuppress": {
+		"prefix": "pragma Unsuppress",
+		"body": "pragma Unsuppress",
+		"description": "pragma Unsuppress (identifier);"
+	},
+	"pragma Volatile": {
+		"prefix": "pragma Volatile",
+		"body": "pragma Volatile",
+		"description": "pragma Volatile (local_name);"
+	},
+	"pragma Volatile_Components": {
+		"prefix": "pragma Volatile_Components",
+		"body": "pragma Volatile_Components",
+		"description": "pragma Volatile_Components (array_local_name);"
+	}
+}

@@ -49,6 +49,10 @@
             },
             {
                 "language": "ada",
+                "path": "./snippets/pragmas.json"
+            },
+            {
+                "language": "ada",
                 "path": "./snippets/standard.json"
             },
             {
