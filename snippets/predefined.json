@@ -769,6 +769,11 @@
 		"body": "Interfaces.Fortran",
 		"description": "package"
 	},
+	"Interfaces.Fortran.Double_Precision_Complex_Types": {
+		"prefix": "Interfaces.Fortran.Double_Precision_Complex_Types",
+		"body": "Interfaces.Fortran.Double_Precision_Complex_Types",
+		"description": "package\nin Fortran"
+	},
 	"Interfaces.Fortran.Single_Precision_Complex_Types": {
 		"prefix": "Interfaces.Fortran.Single_Precision_Complex_Types",
 		"body": "Interfaces.Fortran.Single_Precision_Complex_Types",
