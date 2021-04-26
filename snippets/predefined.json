@@ -139,6 +139,11 @@
 		"body": ".List_Iterator_Interfaces",
 		"description": "package\nin new Doubly_Linked_Lists"
 	},
+	".Stable": {
+		"prefix": ".Stable",
+		"body": ".Stable",
+		"description": "package\nin new Doubly_Linked_Lists|Hashed_Maps|Hashed_Sets|Multiway_Trees|Ordered_Maps|Ordered_Sets|Vectors"
+	},
 	"Ada.Containers.Generic_Array_Sort": {
 		"prefix": ["Ada.Containers.Generic_Array_Sort", "a.cgarso"],
 		"body": "Ada.Containers.Generic_Array_Sort",
@@ -394,6 +399,41 @@
 		"body": "Ada.Numerics",
 		"description": "package"
 	},
+	"Ada.Numerics.Big_Numbers": {
+		"prefix": ["Ada.Numerics.Big_Numbers", "a-nubinu"],
+		"body": "Ada.Numerics.Big_Numbers",
+		"description": "package"
+	},
+	"Ada.Numerics.Big_Numbers.Big_Integers": {
+		"prefix": ["Ada.Numerics.Big_Numbers.Big_Integers", "a-nbnbin"],
+		"body": "Ada.Numerics.Big_Numbers.Big_Integers",
+		"description": "package"
+	},
+	"Ada.Numerics.Big_Numbers.Big_Integers.Signed_Conversions": {
+		"prefix": "Ada.Numerics.Big_Numbers.Big_Integers.Signed_Conversions",
+		"body": "Ada.Numerics.Big_Numbers.Big_Integers.Signed_Conversions",
+		"description": "generic package\nin Big_Integers"
+	},
+	"Ada.Numerics.Big_Numbers.Big_Integers.Unsigned_Conversions": {
+		"prefix": "Ada.Numerics.Big_Numbers.Big_Integers.Unsigned_Conversions",
+		"body": "Ada.Numerics.Big_Numbers.Big_Integers.Unsigned_Conversions",
+		"description": "generic package\nin Big_Integers"
+	},
+	"Ada.Numerics.Big_Numbers.Big_Reals": {
+		"prefix": ["Ada.Numerics.Big_Numbers.Big_Reals", "a-nbnbre"],
+		"body": "Ada.Numerics.Big_Numbers.Big_Reals",
+		"description": "package"
+	},
+	"Ada.Numerics.Big_Numbers.Big_Reals.Fixed_Conversions": {
+		"prefix": "Ada.Numerics.Big_Numbers.Big_Reals.Fixed_Conversions",
+		"body": "Ada.Numerics.Big_Numbers.Big_Reals.Fixed_Conversions",
+		"description": "generic package\nin Big_Reals"
+	},
+	"Ada.Numerics.Big_Numbers.Big_Reals.Float_Conversions": {
+		"prefix": "Ada.Numerics.Big_Numbers.Big_Reals.Float_Conversions",
+		"body": "Ada.Numerics.Big_Numbers.Big_Reals.Float_Conversions",
+		"description": "generic package\nin Big_Reals"
+	},
 	"Ada.Numerics.Complex_Arrays": {
 		"prefix": ["Ada.Numerics.Complex_Arrays", "a.nucoar"],
 		"body": "Ada.Numerics.Complex_Arrays",
@@ -477,6 +517,21 @@
 	"Ada.Streams": {
 		"prefix": ["Ada.Streams", "a.stream"],
 		"body": "Ada.Streams",
+		"description": "package"
+	},
+	"Ada.Streams.Storage_Streams": {
+		"prefix": ["Ada.Streams.Storage_Streams", "a-ststst"],
+		"body": "Ada.Streams.Storage_Streams",
+		"description": "package"
+	},
+	"Ada.Streams.Storage_Streams.Bounded": {
+		"prefix": ["Ada.Streams.Storage_Streams.Bounded", "a-ssstbo"],
+		"body": "Ada.Streams.Storage_Streams.Bounded",
+		"description": "package"
+	},
+	"Ada.Streams.Storage_Streams.Unbounded": {
+		"prefix": ["Ada.Streams.Storage_Streams.Unbounded", "a-ssstun"],
+		"body": "Ada.Streams.Storage_Streams.Unbounded",
 		"description": "package"
 	},
 	"Ada.Streams.Stream_IO": {
@@ -572,6 +627,21 @@
 	"Ada.Strings.Maps.Constants": {
 		"prefix": ["Ada.Strings.Maps.Constants", "a.stmaco"],
 		"body": "Ada.Strings.Maps.Constants",
+		"description": "package"
+	},
+	"Ada.Strings.Text_Buffers": {
+		"prefix": ["Ada.Strings.Text_Buffers", "a-sttebu"],
+		"body": "Ada.Strings.Text_Buffers",
+		"description": "package"
+	},
+	"Ada.Strings.Text_Buffers.Bounded": {
+		"prefix": ["Ada.Strings.Text_Buffers.Bounded", "a-stbubo"],
+		"body": "Ada.Strings.Text_Buffers.Bounded",
+		"description": "package"
+	},
+	"Ada.Strings.Text_Buffers.Unbounded": {
+		"prefix": ["Ada.Strings.Text_Buffers.Unbounded", "a-stbuun"],
+		"body": "Ada.Strings.Text_Buffers.Unbounded",
 		"description": "package"
 	},
 	"Ada.Strings.Unbounded": {
@@ -782,6 +852,31 @@
 	"System": {
 		"prefix": "System",
 		"body": "System",
+		"description": "package"
+	},
+	"System.Atomic_Operations": {
+		"prefix": ["System.Atomic_Operations", "s-atoope"],
+		"body": "System.Atomic_Operations",
+		"description": "package"
+	},
+	"System.Atomic_Operations.Exchange": {
+		"prefix": ["System.Atomic_Operations.Exchange", "s-atopex"],
+		"body": "System.Atomic_Operations.Exchange",
+		"description": "generic package"
+	},
+	"System.Atomic_Operations.Integer_Arithmetic": {
+		"prefix": ["System.Atomic_Operations.Integer_Arithmetic", "s-aoinar"],
+		"body": "System.Atomic_Operations.Integer_Arithmetic",
+		"description": "generic package"
+	},
+	"System.Atomic_Operations.Modular_Arithmetic": {
+		"prefix": ["System.Atomic_Operations.Modular_Arithmetic", "s-aomoar"],
+		"body": "System.Atomic_Operations.Modular_Arithmetic",
+		"description": "generic package"
+	},
+	"System.Atomic_Operations.Test_And_Set": {
+		"prefix": ["System.Atomic_Operations.Test_And_Set", "s-aotase"],
+		"body": "System.Atomic_Operations.Test_And_Set",
 		"description": "package"
 	},
 	"System.Address_To_Access_Conversions": {
